@@ -1,0 +1,65 @@
+# Batch input for discover-ats.mjs — companies without a verified manual board entry.
+# Parent-brand duplicates and manually configured Workday/Greenhouse boards are omitted.
+
+companies:
+  - name: Practo
+  - name: Razorpay
+  - name: PayPal
+  - name: Atlassian
+  - name: Shopify
+  - name: Meta
+  - name: Google
+  - name: Apple
+  - name: Intel
+  - name: Qualcomm
+  - name: Autodesk
+  - name: ARM
+  - name: Akamai
+  - name: Cloudera
+  - name: Dunzo
+  - name: Hasura
+  - name: HealthifyMe
+  - name: MyGate
+  - name: PhonePe
+  - name: ShareChat
+  - name: Smallcase
+  - name: Sumo Logic
+    slug: sumologic
+  - name: Target
+  - name: Udaan
+  - name: upGrad
+  - name: Visa
+  - name: Zoho
+  - name: Box8
+  - name: Aviso
+  - name: Cohesity
+  - name: Compass
+  - name: Curefit
+  - name: Directi
+  - name: Gojek
+  - name: HashedIn
+  - name: Indeed
+  - name: Intuit
+  - name: Jio
+  - name: Juniper Networks
+  - name: MakeMyTrip
+  - name: MathWorks
+  - name: Mentor Graphics
+  - name: MotorQ
+  - name: Palo Alto Networks
+  - name: Quadeye
+  - name: Qubole
+  - name: Red Hat
+  - name: SAP Labs
+  - name: Samsung
+  - name: Stack Overflow
+  - name: Texas Instruments
+  - name: Vizury
+  - name: BlackBuck
+  - name: Expedia
+  - name: Mastercard
+  - name: Cisco
+    website: careers.cisco.com
+  - name: Palo Alto Networks
+  - name: Grab
+    slug: Grab
