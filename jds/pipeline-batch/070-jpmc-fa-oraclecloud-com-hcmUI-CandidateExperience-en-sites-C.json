@@ -1,8 +1,0 @@
-{
-  "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780917",
-  "company": "JPMorgan Chase",
-  "role": "Principal Software Engineer -Forward Deployment Engineer - Databricks",
-  "raw": "- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780917 | JPMorgan Chase | Principal Software Engineer -Forward Deployment Engineer - Databricks | Hyderabad, Telangana, India | posted: 2026-09-04",
-  "slug": "070-jpmc-fa-oraclecloud-com-hcmUI-CandidateExperience-en-sites-C",
-  "error": "Command failed: node /Users/yash/Documents/DDIA2/career-ops/browser-extract.mjs https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780917 --max-chars 15000\n{\"error\":\"extracted 0 chars of JD text (minimum 200) — the page most likely renders its content client-side\",\"code\":\"empty_text\",\"url\":\"https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780917\"}\n"
-}
