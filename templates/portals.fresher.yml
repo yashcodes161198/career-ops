@@ -1,0 +1,212 @@
+# Fresher-focused discovery template for candidates in India.
+# Personalize target disciplines, locations, and companies before the first scan.
+
+scan_history:
+  recheck_after_days: 14
+  dedup_include_location: true
+
+max_posting_age_days: 30
+
+location_filter:
+  always_allow:
+    - "India"
+    - "Bengaluru"
+    - "Bangalore"
+    - "Hyderabad"
+    - "Pune"
+    - "Gurugram"
+    - "Gurgaon"
+    - "Noida"
+    - "Delhi"
+    - "NCR"
+    - "Chennai"
+    - "Mumbai"
+  allow:
+    - "India"
+    - "Remote India"
+    - "India Remote"
+    - "APAC"
+    - "Bengaluru"
+    - "Bangalore"
+    - "Hyderabad"
+    - "Pune"
+    - "Gurugram"
+    - "Gurgaon"
+    - "Noida"
+    - "Delhi"
+    - "NCR"
+    - "Chennai"
+    - "Mumbai"
+
+country_eligibility_filter:
+  exclusionary:
+    - "must be located in the united states"
+    - "us-based candidates only"
+    - "authorized to work in the us without sponsorship"
+    - "must be authorized to work in the united states"
+    - "remote within the united states"
+    - "must reside in the us"
+    - "uk-based candidates only"
+    - "must reside in the uk"
+    - "eu candidates only"
+    - "must reside in the eu"
+  inclusive:
+    - "worldwide"
+    - "work from anywhere"
+    - "global remote"
+    - "india"
+    - "asia"
+    - "apac"
+
+title_filter:
+  skip_tiers: [intern]
+  positive:
+    - "Fresher"
+    - "Freshers"
+    - "Graduate Engineer Trainee"
+    - "Graduate Engineer"
+    - "GET"
+    - "Associate Software Engineer"
+    - "Junior Software Engineer"
+    - "Software Engineer I"
+    - "Software Engineer 1"
+    - "SDE 1"
+    - "SDE-1"
+    - "SDE I"
+    - "New Graduate"
+    - "New Grad"
+    - "Entry Level Software Engineer"
+    - "Entry-Level Software Engineer"
+    - "Trainee Software Engineer"
+    - "Graduate Software Engineer"
+    - "Software Developer Fresher"
+    - "Backend Developer Fresher"
+    - "Full Stack Developer Fresher"
+    - "Software Engineer Fresher"
+    - "Software Developer (0-1"
+    - "Software Engineer (0-1"
+    - "0-1 years"
+    - "0-2 years"
+    - "Campus Hire"
+    - "Campus Recruitment"
+    - "University Graduate"
+    - "Recent Graduate"
+    - "Associate Developer"
+    - "Junior Developer"
+    - "Junior Backend Engineer"
+    - "Junior Full Stack Engineer"
+    - "Associate Backend Engineer"
+    - "Data Engineer Fresher"
+    - "ML Engineer Fresher"
+    - "AI Engineer Fresher"
+    - "Graduate Trainee"
+    - "Engineer Trainee"
+  negative:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead Engineer"
+    - "Engineering Manager"
+    - "Director"
+    - "word:Intern"
+    - "Internship"
+    - "Co-op"
+    - "Summer Intern"
+    - "Winter Intern"
+    - "3+ years"
+    - "4+ years"
+    - "5+ years"
+    - "7+ years"
+    - "10+ years"
+    - "Civil Engineer"
+    - "Civil Engineering"
+    - "Structural Engineer"
+    - "Site Engineer"
+  seniority_boost:
+    - "Fresher"
+    - "Freshers"
+    - "Graduate"
+    - "Junior"
+    - "Associate"
+    - "Trainee"
+    - "Entry"
+    - "New Grad"
+    - "Campus"
+    - "0-1"
+    - "0-2"
+
+# These searches run through the agent-driven `/career-ops scan` workflow.
+search_queries:
+  - name: LinkedIn India fresher software roles
+    query: 'site:linkedin.com/jobs/view ("Fresher" OR "Graduate Engineer Trainee" OR "Associate Software Engineer" OR "Junior Software Engineer" OR "SDE 1" OR "New Graduate" OR "Entry Level Software Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote") -intern -internship'
+    enabled: true
+
+  - name: Naukri India fresher software roles
+    query: 'site:naukri.com ("Fresher" OR "Graduate Engineer Trainee" OR "GET" OR "Associate Software Engineer" OR "Junior Software Engineer" OR "SDE" OR "Software Engineer Fresher" OR "0-1 years") ("Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote") -intern -internship'
+    enabled: true
+
+  - name: Instahyre India fresher software roles
+    query: 'site:instahyre.com ("Fresher" OR "Graduate" OR "Associate" OR "Junior" OR "Entry Level" OR "0-1") ("Software Engineer" OR "Developer" OR "SDE") India -intern'
+    enabled: true
+
+  - name: Wellfound India fresher software roles
+    query: 'site:wellfound.com/jobs ("Fresher" OR "Junior" OR "Associate" OR "Graduate" OR "Entry Level") ("Software Engineer" OR "Developer" OR "SDE") ("India" OR "Remote") -intern'
+    enabled: true
+
+  - name: Greenhouse India fresher software roles
+    query: 'site:job-boards.greenhouse.io ("Associate Software Engineer" OR "Software Engineer I" OR "Junior Software Engineer" OR "New Graduate" OR "University Graduate" OR "Graduate Engineer") ("India" OR "Remote") -intern'
+    enabled: true
+
+  - name: Ashby India fresher software roles
+    query: 'site:jobs.ashbyhq.com ("Associate Software Engineer" OR "Software Engineer I" OR "Junior Software Engineer" OR "New Graduate" OR "Graduate Engineer") ("India" OR "Remote") -intern'
+    enabled: true
+
+  - name: Lever India fresher software roles
+    query: 'site:jobs.lever.co ("Associate Software Engineer" OR "Software Engineer I" OR "Junior Software Engineer" OR "New Graduate" OR "Graduate Engineer") ("India" OR "Remote") -intern'
+    enabled: true
+
+  - name: General official fresher postings
+    query: '("Software Engineer Fresher" OR "Graduate Engineer Trainee" OR "Associate Software Engineer" OR "Junior Software Engineer" OR "SDE 1" OR "Entry Level Software Engineer") ("India" OR "Bengaluru" OR "Hyderabad") -intern -internship -course -training -civil'
+    enabled: true
+
+  - name: Priority 1 companies — high pay, good WLB
+    query: '("Adobe" OR "Apple" OR "Broadcom" OR "Citrix" OR "Expedia" OR "Google" OR "Indeed" OR "InMobi" OR "Intuit" OR "JPMorgan Chase" OR "LinkedIn" OR "MathWorks" OR "Microsoft" OR "Nutanix" OR "Nvidia" OR "PhonePe" OR "Salesforce" OR "ServiceNow") ("Associate Software Engineer" OR "Software Engineer I" OR "Junior Software Engineer" OR "Graduate Engineer" OR "New Graduate" OR "SDE 1" OR "Fresher") ("India" OR "Bengaluru" OR "Hyderabad" OR "Remote") jobs careers -intern -internship -civil'
+    enabled: true
+
+  - name: Priority 2 companies — high pay, unknown WLB
+    query: '("Airbnb" OR "Alphonso" OR "AppDynamics" OR "Aviso" OR "Bloomreach" OR "Cohesity" OR "Compass" OR "Curefit" OR "Gojek" OR "Grab" OR "Hasura" OR "HealthifyMe" OR "Instabase" OR "MotorQ" OR "Oracle OCI" OR "Palo Alto Networks" OR "Postman" OR "Practo" OR "Quadeye" OR "Qubole" OR "Rubrik" OR "ShareChat" OR "Stripe" OR "Sumo Logic" OR "Swiggy" OR "Target" OR "Udaan" OR "Vizury" OR "Whatfix" OR "WorldQuant") ("Associate" OR "Junior" OR "Graduate" OR "Fresher" OR "SDE 1" OR "Entry Level") India jobs careers -intern -internship -civil'
+    enabled: true
+
+  - name: Priority 3 companies — high pay, bad WLB
+    query: '("Amazon" OR "Arcesium" OR "Atlassian" OR "CodeNation" OR "Coinbase" OR "D. E. Shaw" OR "Flipkart" OR "Goldman Sachs" OR "Harness" OR "Morgan Stanley" OR "Rippling" OR "Sprinklr" OR "Tower Research" OR "Uber" OR "Zepto" OR "Zomato") ("Associate" OR "Junior" OR "Graduate" OR "Fresher" OR "SDE 1" OR "Entry Level") India jobs careers -intern -internship -civil'
+    enabled: true
+
+  - name: Priority 4 companies — mid pay, good WLB
+    query: '("ARM" OR "Autodesk" OR "BlackBuck" OR "Cisco" OR "Datadog" OR "Directi" OR "Freshworks" OR "HashedIn" OR "Intel" OR "Mastercard" OR "Mentor Graphics" OR "Oracle" OR "Qualcomm" OR "Red Hat" OR "SAP Labs" OR "Samsung" OR "Slack" OR "Smallcase" OR "Texas Instruments" OR "Visa" OR "Zoho") ("Associate" OR "Junior" OR "Graduate" OR "Fresher" OR "SDE 1" OR "GET") India jobs careers -intern -internship -civil'
+    enabled: true
+
+  - name: Priority 5 companies — mid pay, unknown WLB
+    query: '("Box8" OR "Chowbotics" OR "Cloudera" OR "Dunzo" OR "Jio" OR "Juniper Networks" OR "MakeMyTrip" OR "MyGate" OR "PayPal" OR "Razorpay" OR "SanDisk" OR "Twilio" OR "upGrad") ("Associate" OR "Junior" OR "Graduate" OR "Fresher" OR "SDE 1") India jobs careers -intern -internship -civil'
+    enabled: true
+
+  - name: Priority 6 companies — mid pay, bad WLB
+    query: '("BigBasket" OR "CRED" OR "Dream11" OR "Disney Hotstar" OR "Ola" OR "OYO" OR "Paytm" OR "Unacademy" OR "Walmart" OR "Wissen" OR "Zeta") ("Associate" OR "Junior" OR "Graduate" OR "Fresher" OR "SDE 1") India jobs careers -intern -internship -civil'
+    enabled: true
+
+  - name: Unknown compensation companies
+    query: '("Groupon" OR "Snowflake" OR "Truecaller" OR "Zoom") ("Associate" OR "Junior" OR "Graduate" OR "Fresher" OR "SDE 1") India jobs careers -intern -internship -civil'
+    enabled: true
+
+  - name: International sponsor and remote-first companies
+    query: '("Agoda" OR "Booking.com" OR "ByteDance" OR "Databricks" OR "Meta" OR "Spotify" OR "Yelp" OR "Zalando" OR "Akamai" OR "Atlassian" OR "Auth0" OR "BrowserStack" OR "Coinbase" OR "Confluent" OR "GitHub" OR "GitLab" OR "Shopify" OR "Slack" OR "Square" OR "Stack Overflow") ("Associate" OR "Junior" OR "Graduate" OR "New Grad" OR "Entry Level") ("India" OR "remote India") jobs careers -intern -internship -civil'
+    enabled: true
+
+company_aliases:
+  Salesforce: [Slack]
+  Cisco: [AppDynamics]
+  Cloud Software Group: [Citrix, TIBCO]
+  Okta: [Auth0]
+  Block: [Square]
+  DoorDash: [Chowbotics]
+  LG Ad Solutions: [Alphonso]
+  Oracle: [Oracle OCI, OCI]

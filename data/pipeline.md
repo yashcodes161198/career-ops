@@ -2,19 +2,46 @@
 
 ## Pending
 
-- [ ] https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537 | Rubrik | Software Engineer (CPD) - Winter Intern | Bangalore | posted: 2026-09-06
-- [ ] https://www.rubrik.com/company/careers/departments/job.8166523?gh_jid=8166523 | Rubrik | Software Engineer - Winter Intern | Bangalore | posted: 2026-09-06
-- [ ] https://apply.careers.microsoft.com/careers/job/1970393556911730 | Microsoft | Software Engineering INTERN | India, Multiple Locations, Multiple Locations · IN | posted: 2026-08-28
-- [ ] https://stripe.com/jobs/search?gh_jid=8131339 | Stripe | Operations Associate, Apprenticeship | Bengaluru | posted: 2026-09-01
-- [ ] https://stripe.com/jobs/search?gh_jid=8031833 | Stripe | Software Engineer, Intern | Bengaluru | source: web-discovery
-- [ ] https://www.amazon.jobs/en/jobs/10499554/software-development-engineer-intern-jan-2027-6-month-amazon-university-talent-acquisition | Amazon | Software Development Engineer Intern – Jan 2027 (6 month) | Bengaluru, India | source: web-discovery | tier: P3 | grad: 2027
-- [ ] https://jobs.ashbyhq.com/interview-kickstart/bf2a4802-4180-440b-b5bf-5f8058e69846 | Interview Kickstart | Intern - Software Development Engineer (Backend) | Remote - India | posted: 2026-09-02 | source: web-discovery
-- [ ] https://jobs.ashbyhq.com/certa/b4026cb6-807d-4046-a5d7-605ee5fa5595 | Certa | Backend Engineer - Internship | India (remote) | posted: 2026-09-03 | source: web-discovery
-- [ ] https://jobs.ashbyhq.com/ema/e0511c0c-998f-4079-b62c-d2f164bf2c86 | Ema | AI/Data Resident | India - remote | posted: 2026-08-24 | source: web-discovery | note: JD asks CS degree + 8.0+ GPA
-- [ ] https://job-boards.greenhouse.io/alphagrepsecurities/jobs/8769725002 | AlphaGrep | Intern Hiring 2027 | Bengaluru | posted: 2026-09-01 | source: web-discovery | quant trading
-- [ ] https://jobs.lever.co/epifi/08c743e8-2b29-4f78-827e-5bd90476ed86 | Epifi | AI Engg Intern | Bangalore | source: web-discovery
-- [ ] https://jobs.ashbyhq.com/atlys/1a34deb8-3d14-4b7b-b1eb-cd302ce97223 | Atlys | AI Intern | Delhi HQ | posted: 2026-08-12 | source: web-discovery
 
-## Processed
-
-- [x] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Poland-Remote/System-Software-Engineering-Intern--GPU---2027_JR2025334 | Nvidia | System Software Engineering Intern, GPU - 2027 | 2 Locations | posted: 2026-09-10 | skipped: Poland/remote listing does not explicitly permit working from India
+- [ ] https://jobs.ashbyhq.com/lgads/02b11bae-83d2-47f5-9ff2-6114f13ee360 | LG Ad Solutions | Software Engineer I | Bangalore, India | posted: 2026-08-25
+- [ ] https://jobs.ashbyhq.com/lgads/8899f008-5e87-4e05-8b1f-7a507a573ba8 | LG Ad Solutions | Software Engineer II - DevOps | Bangalore, India | posted: 2026-09-03
+- [ ] https://jobs.smartrecruiters.com/sandisk/744000149008929-associate-software-engineer | SanDisk | Associate Software Engineer | Bengaluru, KA, India
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556972828 | Microsoft | Sr. Software Engineer /Software Engineer II | India, Telangana, Hyderabad · Hyderabad, TS, IN | posted: 2026-09-09
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556961355 | Microsoft | Software Engineer II | India, Karnataka, Bangalore · Bengaluru, KA, IN | posted: 2026-09-11
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556985473 | Microsoft | Software Engineer II | India, Karnataka, Bangalore · India, Telangana, Hyderabad · India, Uttar Pradesh, Noida · Bengaluru, KA, IN · Hyderabad, TS, IN · Noida, UP, IN | posted: 2026-09-07
+- [ ] https://box8.recruitee.com/o/frontend-engineerweb-developer-sde-1-2 | Box8 | Front-end Engineer/Web Developer (SDE 1 & 2) | Bangalore, Karnātaka, India
+- [ ] https://ats.rippling.com/rippling/jobs/c27bb856-8044-4253-a1e2-948ee96fd760 | Rippling | Software Engineer II | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/a91be8b6-be18-4fad-9738-5b5f40bd14f4 | Rippling | Software Engineer II (AI Governance) | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/266cf368-4d6b-4317-a911-76b9219ae28e | Rippling | Software Engineer II - Fullstack | Bangalore, India
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-288000 | Mastercard | Software Engineer II | Pune, India | posted: 2026-09-11
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II--Java-Full-Stack-Developer-_R-259024 | Mastercard | Software Engineer II (Java Full Stack Developer) | Pune, India | posted: 2026-09-11
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-I_R-290204 | Mastercard | Software Engineer I | Pune, India | posted: 2026-09-11
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II--Mainframe-Developer-_R-274163 | Mastercard | Software Engineer II (Mainframe Developer) | Pune, India | posted: 2026-09-08
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Navi-Mumbai-India-Finicity/Software-Engineer-II---Integrations---API-Connectivity_R-289567 | Mastercard | Software Engineer II – Integrations & API Connectivity | Navi Mumbai, India (Finicity) | posted: 2026-09-02
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II-2_R-282788-1 | Mastercard | Software Engineer II-2 | Pune, India
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II--Backend-Developer-_R-274179 | Mastercard | Software Engineer II (Backend Developer) | Pune, India
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II--Software-Engineer-in-Test--_R-274181 | Mastercard | Software Engineer II (Software Engineer in Test ) | Pune, India
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774131 | JPMorgan Chase | Software Engineer II | Mumbai, Maharashtra, India | posted: 2026-09-11
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210783711 | JPMorgan Chase | Software Engineer III | Bengaluru, Karnataka, India | posted: 2026-09-11
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788021 | JPMorgan Chase | Software Engineer III - Java, AWS | Hyderabad, Telangana, India | posted: 2026-09-11
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788027 | JPMorgan Chase | Software Engineer III - UI (React & Typescript) | Hyderabad, Telangana, India | posted: 2026-09-11
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210789318 | JPMorgan Chase | Software Engineer III-Java Full Stack | Bengaluru, Karnataka, India | posted: 2026-09-11
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210751089 | JPMorgan Chase | Software Engineer III Java react | Hyderabad, Telangana, India | posted: 2026-09-10
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780876 | JPMorgan Chase | Software Engineer II - Low-Latency Java and Kafka | Bengaluru, Karnataka, India | posted: 2026-09-10
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781863 | JPMorgan Chase | Software Engineer III - Java AWS | Bengaluru, Karnataka, India | posted: 2026-09-10
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210787405 | JPMorgan Chase | Software Engineer III - Java Fullstack | Hyderabad, Telangana, India | posted: 2026-09-10
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210772779 | JPMorgan Chase | Software Engineer II | Bengaluru, Karnataka, India | posted: 2026-09-09
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784741 | JPMorgan Chase | Software Engineer III | Hyderabad, Telangana, India | posted: 2026-09-09
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210789216 | JPMorgan Chase | Software Engineer III - Java | Bengaluru, Karnataka, India | posted: 2026-09-09
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773698 | JPMorgan Chase | Software Engineer II - Java FullStack, React and AWS | India | posted: 2026-09-04
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210783004 | JPMorgan Chase | Software Engineer III - Platform Engineer | Bengaluru, Karnataka, India | posted: 2026-09-02
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210786713 | JPMorgan Chase | Software Engineer III - Mobile Developer | Bengaluru, Karnataka, India | posted: 2026-09-02
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210751063 | JPMorgan Chase | Software Engineer III - Java & Databricks | Hyderabad, Telangana, India | posted: 2026-08-26
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210714912 | JPMorgan Chase | Software Engineer III - Back-end Engineer - Chase UK | Bengaluru, Karnataka, India | posted: 2026-08-25
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210754767 | JPMorgan Chase | Java Full Stack (Java, ReactJS, AWS, and exposure to AI tools) Software Engineer II | Bengaluru, Karnataka, India | posted: 2026-08-20
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210733010 | JPMorgan Chase | .Net Fullstack with Angular/ Reactjs (Software Engineer II) | Hyderabad, Telangana, India | posted: 2026-08-19
+- [ ] https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/IN-TN-CHENNAI-Home-Office-RMZ-Millenia-Biz-Park/Software-Engineer-III_R-2568809-1 | Walmart | Software Engineer III | IN TN CHENNAI Home Office RMZ Millenia Biz Park
+- [ ] https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/IN-TN-CHENNAI-Home-Office-Capita-Land/Software-Engineer-III_R-2597717 | Walmart | Software Engineer III | IN TN CHENNAI Home Office Capita Land | posted: 2026-09-12
+- [ ] https://job-boards.greenhouse.io/mthreerecruitingportal/jobs/4660233006 | mthree | Graduate Recruitment - CP - Tech - 2026 | India | posted: 2026-03-18 | source: web-discovery
+- [ ] https://job-boards.greenhouse.io/mthreerecruitingportal/jobs/4658074006 | mthree | Graduate Recruitment - SHD - Tech - 2026 | India | posted: 2026-03-18 | source: web-discovery
+- [ ] https://job-boards.greenhouse.io/mthreerecruitingportal/jobs/4660235006 | mthree | Graduate Recruitment - ST - Tech - 2026 | India | posted: 2026-03-18 | source: web-discovery
