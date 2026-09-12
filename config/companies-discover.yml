@@ -63,3 +63,34 @@ companies:
   - name: Palo Alto Networks
   - name: Grab
     slug: Grab
+  - name: Amazon
+  - name: Arcesium
+  - name: CodeNation
+  - name: Coinbase
+  - name: D. E. Shaw
+  - name: Flipkart
+  - name: Goldman Sachs
+  - name: Harness
+  - name: Morgan Stanley
+  - name: Rippling
+  - name: Sprinklr
+  - name: Tower Research
+  - name: Uber
+  - name: Zepto
+  - name: Zomato
+  - name: Airbnb
+  - name: Alphonso
+  - name: AppDynamics
+  - name: Bloomreach
+  - name: Instabase
+  - name: Oracle OCI
+  - name: Postman
+  - name: Rubrik
+  - name: Stripe
+  - name: WorldQuant
+  - name: Chowbotics
+  - name: GitHub
+  - name: GitLab
+  - name: Meta
+  - name: Slack
+  - name: Square

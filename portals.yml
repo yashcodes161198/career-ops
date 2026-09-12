@@ -155,6 +155,26 @@ search_queries:
     query: 'site:jobs.lever.co ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Remote")'
     enabled: true
 
+  - name: Requested senior employers group 1
+    query: '("Amazon" OR "Arcesium" OR "Atlassian" OR "CodeNation" OR "Coinbase" OR "D. E. Shaw" OR "Flipkart" OR "Goldman Sachs" OR "Harness" OR "Morgan Stanley" OR "Rippling" OR "Sprinklr" OR "Tower Research" OR "Uber" OR "Zepto" OR "Zomato") ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
+    enabled: true
+
+  - name: Requested senior employers group 2
+    query: '("Airbnb" OR "LG Ad Solutions" OR "AppDynamics" OR "Aviso" OR "Bloomreach" OR "Cohesity" OR "Compass" OR "Curefit" OR "Gojek" OR "Grab" OR "Hasura" OR "HealthifyMe" OR "Instabase" OR "MotorQ" OR "Oracle OCI" OR "Palo Alto Networks") ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
+    enabled: true
+
+  - name: Requested senior employers group 3
+    query: '("Postman" OR "Practo" OR "Quadeye" OR "Qubole" OR "Rubrik" OR "ShareChat" OR "Stripe" OR "Sumo Logic" OR "Swiggy" OR "Target" OR "Udaan" OR "Vizury" OR "Whatfix" OR "WorldQuant") ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
+    enabled: true
+
+  - name: Requested senior employers group 4
+    query: '("Box8" OR "DoorDash" OR "Cloudera" OR "Dunzo" OR "Jio" OR "Juniper Networks" OR "MakeMyTrip" OR "MyGate" OR "PayPal" OR "Razorpay" OR "SanDisk" OR "Twilio" OR "upGrad") ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
+    enabled: true
+
+  - name: Requested senior employers group 5
+    query: '("Akamai" OR "Atlassian" OR "Okta" OR "BrowserStack" OR "Coinbase" OR "Confluent" OR "GitHub" OR "GitLab" OR "Meta" OR "Shopify" OR "Salesforce Slack" OR "Block Square" OR "Stack Overflow") ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
+    enabled: true
+
 # Canonical company labels for dedup across ATS naming variants.
 company_aliases:
   Salesforce: [Slack]
@@ -368,6 +388,56 @@ tracked_companies:
 
   - name: Samsung
     careers_url: https://samsung.recruitee.com
+    enabled: true
+
+  - name: Arcesium
+    careers_url: https://job-boards.greenhouse.io/arcesiumllc
+    api: https://boards-api.greenhouse.io/v1/boards/arcesiumllc/jobs
+    enabled: true
+
+  - name: Atlassian
+    careers_url: https://globalcareers-atlassian.icims.com/jobs/
+    enabled: true
+
+  - name: Amazon
+    careers_url: https://www.amazon.jobs/en/search
+    provider: amazon
+    amazon:
+      base_query: "senior software engineer"
+      loc_query: "India"
+    enabled: true
+
+  - name: PayPal
+    careers_url: https://paypal.eightfold.ai/careers
+    domain: paypal.com
+    enabled: true
+
+  - name: Juniper Networks
+    careers_url: https://juniper.eightfold.ai/careers
+    enabled: true
+
+  - name: Palo Alto Networks
+    careers_url: https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers
+    enabled: true
+
+  - name: CodeNation
+    careers_url: https://careers.smartrecruiters.com/codenation
+    enabled: true
+
+  - name: Harness
+    careers_url: https://harness.pinpointhq.com
+    enabled: true
+
+  - name: Rippling
+    careers_url: https://ats.rippling.com/rippling/jobs
+    enabled: true
+
+  - name: Uber
+    careers_url: https://careers.smartrecruiters.com/uber
+    enabled: true
+
+  - name: Zepto
+    careers_url: https://zepto.bamboohr.com
     enabled: true
 
 # Public multi-employer feeds scanned by `npm run scan`.

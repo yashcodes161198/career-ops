@@ -4,6 +4,71 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 ## Pending
 
+- [ ] https://www.coinbase.com/careers/positions/8094196?gh_jid=8094196 | Coinbase | Senior Software Engineer- Blockchain Network | Remote - USA | posted: 2026-09-09
+- [ ] https://www.coinbase.com/careers/positions/8172100?gh_jid=8172100 | Coinbase | Senior Software Engineer, Core Infra Systems | Remote - USA | posted: 2026-09-09
+- [ ] https://www.coinbase.com/careers/positions/7964398?gh_jid=7964398 | Coinbase | Senior Software Engineer, Developer Infrastructure | Remote - USA | posted: 2026-09-10
+- [ ] https://www.coinbase.com/careers/positions/8155366?gh_jid=8155366 | Coinbase | Senior Staff Software Engineer, Platform - IAM | Remote - USA | posted: 2026-09-10
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8778943002 | GitLab | Senior Backend Engineer, Database Excellence (Ruby) | Remote, United Kingdom | posted: 2026-09-09
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8760233002 | GitLab | Senior Backend Engineer, Trusted Agentic Development | Remote, Poland | posted: 2026-09-08
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8785285002 | GitLab | Senior Software Engineer, NLP | Bangalore, India | posted: 2026-09-09
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8770702002 | GitLab | Staff Backend Engineer, Database Automation (Go) | Remote, Canada; Remote, United States | posted: 2026-09-09
+- [ ] https://www.okta.com/company/careers/opportunity/8185311?gh_jid=8185311 | Okta | Senior Fullstack Engineer (Java + React.js) | Bengaluru, India | posted: 2026-09-10
+- [ ] https://www.okta.com/company/careers/opportunity/7744555?gh_jid=7744555 | Okta | Senior Software Engineer in Test | Bengaluru, India | posted: 2026-09-11
+- [ ] https://jobs.smartrecruiters.com/servicenow/744000148742379-staff-software-engineer-infrastructure-kubernetes | ServiceNow | Staff Software Engineer - Infrastructure,Kubernetes | Hyderabad, , India
+- [ ] https://jobs.smartrecruiters.com/servicenow/744000148349979-senior-staff-software-engineer-security-data-platform-expert-in-python | ServiceNow | Senior Staff Software Engineer / Security Data Platform / Expert in Python | Santa Clara, California, United States, Remote
+- [ ] https://ats.rippling.com/rippling/jobs/e83a7c14-d13b-474d-9380-4a8d27f224f5 | Rippling | Senior Software Engineer | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/61903f31-b572-488c-850b-24d4d486bb4c | Rippling | Senior Software Engineer - Accounting Integrations | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/0654e4e2-7e90-4be9-b068-dd5e95451fc7 | Rippling | Senior Software Engineer - AI Governance | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/8d348367-72ad-49d7-a06d-19d691f01069 | Rippling | Senior Software Engineer - AI Initiative | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/5eb71d73-c7ac-47da-b7c7-300d2413ced0 | Rippling | Senior Software Engineer - Codeship | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/df04d86b-c4df-4c8b-bb8a-cbef8f9863e6 | Rippling | Senior Software Engineer - Data Catalog | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/4f0a5bff-4e0c-4b75-8ab6-1dac694fb34b | Rippling | Senior Software Engineer - Global Payroll | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/43953773-4092-476d-be50-2397e3a15f4e | Rippling | Senior Software Engineer (HRIS) | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/aac2f905-fde7-409e-8ff0-20a103bcc2d4 | Rippling | Senior Software Engineer, Monetization Platform | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/5fd376db-7efe-407f-8f28-9a32ad93cf90 | Rippling | Senior Software Engineer- Payroll Data | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/ba2d9b19-b917-4216-aa83-c18a44064fe3 | Rippling | Senior Software Engineer - Tax Payments | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/72d13c8d-b34d-4eb2-ba86-3319b01001b7 | Rippling | Senior Software Engineer - Tax Platform | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/6a697247-06ff-4734-a995-b04b69cd81b8 | Rippling | Senior Software Engineer - Travel Integrations | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/963f5dc1-3f90-42cf-b72e-f93072ea9f20 | Rippling | Senior Software Engineer - Travel Team | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/51303a14-da7f-4be9-b6cd-75db0f884cc5 | Rippling | Senior Staff Software Engineer | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/a6de528a-767f-48a9-aad2-2c82d5323ecc | Rippling | Senior Staff Software Engineer- Monetization Platform | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/7bf032b6-7fb5-4a82-b299-d2a013491c61 | Rippling | Senior Staff Software Engineer - Rippling AI | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/e2c4f4ac-9d73-4d14-b878-934ac3a8c0dc | Rippling | Staff Software Engineer | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/865e199b-dc78-4b63-bb28-cdbee1ae6d4b | Rippling | Staff Software Engineer - Accounting Integrations | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/e64a65a0-7b28-4f82-b06f-b2b9c9fb3edc | Rippling | Staff Software Engineer - AI Governance | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/bed8b350-ec70-4ae5-a7f6-6ad1c5739048 | Rippling | Staff Software Engineer (Backend FullStack) - App Components | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/be6c404a-54e4-46b5-aef3-d8e9dacbfbcc | Rippling | Staff Software Engineer - Benefits | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/bedb7856-12e5-4a88-94ad-9a618eae32b1 | Rippling | Staff Software Engineer - Financial Integrity | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/7933da5c-86a8-4ec9-8974-e69e5ed2d76d | Rippling | Staff Software Engineer - Global Payroll | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/27dcd84e-15e0-492d-87de-03a1a986f077 | Rippling | Staff Software Engineer - Payments | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/a85f4703-0d12-4148-adeb-075e78024248 | Rippling | Staff Software Engineer - Rippling AI | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/6b673d9f-5f5e-4aff-9fb2-efe0c6794da3 | Rippling | Staff Software Engineer - Spend | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/8cf7fd15-bfd7-41f6-928b-243f26f7c589 | Rippling | Staff Software Engineer - Tax | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/0e488412-db51-4f4b-b3b2-5acd2b27a506 | Rippling | Staff Software Engineer - Tax Platform | Bangalore, India
+- [ ] https://ats.rippling.com/rippling/jobs/81ca0f36-171e-48e2-8480-127124e7da8c | Rippling | Staff Software Engineer - Variable Compensation | Bangalore, India
+- [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-net-full-stack-developer-1 | Lemon.io | Senior .NET Full-stack Developer | Anywhere in the World | posted: 2026-09-08
+- [ ] https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114 | Salesforge | Senior Backend Engineer Build AI Agents
+- [ ] https://remoteOK.com/remote-jobs/remote-staff-software-engineer-evolve-1136447 | Evolve | Staff Software Engineer | Remote - US
+- [ ] https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Senior-Staff-Software-Engineer_JR-018028 | Palo Alto Networks | Senior Staff Software Engineer | Office - India - CyberArk Hyderabad | posted: 2026-09-08
+- [ ] https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Senior-Staff-Software-Engineer--C---Win32-_JR-018027 | Palo Alto Networks | Senior Staff Software Engineer (C++ Win32) | Office - India - CyberArk Hyderabad | posted: 2026-08-31
+- [ ] https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---Bangalore-Bagmane-Tech-Park/Senior-Software-Engineer--Prisma-SD-WAN--Platform---Networking----NetSec_JR-020892 | Palo Alto Networks | Senior Software Engineer, Prisma SD-WAN (Platform & Networking) - NetSec | Office - India - Bangalore Bagmane Tech Park
+- [ ] https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---Pune/Senior-Staff-Software-Engineer_JR-018013 | Palo Alto Networks | Principal Software Engineer | Office - India - Pune
+- [ ] https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---Bangalore-Bagmane-Tech-Park/Director--IT-Platform-Engineering_JR-018718 | Palo Alto Networks | Director, IT Platform Engineering | Office - India - Bangalore Bagmane Tech Park
+- [ ] https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---Bangalore/Principal-Engineer-Software--Automation-and-Test-_JR-014274 | Palo Alto Networks | Senior Staff Software Engineer | Office - India - Bangalore
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210786653 | JPMorgan Chase | Lead Software Engineer - Python & Java, AWS, Terraform(Data Engineer)) | Hyderabad, Telangana, India | posted: 2026-09-11
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788834 | JPMorgan Chase | Lead Software Engineer- Java Backend | Hyderabad, Telangana, India | posted: 2026-09-11
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210789751 | JPMorgan Chase | Lead Software Engineer -Java, AWS | Hyderabad, Telangana, India | posted: 2026-09-11
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210770681 | JPMorgan Chase | Lead Software Engineer - Java, React, AWS | Bengaluru, Karnataka, India | posted: 2026-09-10
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210771336 | JPMorgan Chase | Sr Lead Software Engineer - Python, Agentic AI Solutions | Bengaluru, Karnataka, India | posted: 2026-09-10
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210787031 | JPMorgan Chase | Sr Lead Software Engineer | Mumbai, Maharashtra, India | posted: 2026-09-09
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210787095 | JPMorgan Chase | Lead Software Engineer - Cognos, BO, Snowflake,SQL | Mumbai, Maharashtra, India | posted: 2026-09-09
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788758 | JPMorgan Chase | Senior Lead Software Engineer -Java/Kotlin , Python programmer, APIs | Bengaluru, Karnataka, India | posted: 2026-09-08
+- [ ] https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---Remote/Senior---Lead-Software-Engineer--Full-Stack--Product-_JR343623 | Salesforce | Senior / Lead / Principal Software Engineer, Full Stack (Product) | 4 Locations
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--AI-Agent-Compute_JR2025063 | Nvidia | Senior Software Engineer, AI Agent Compute | 2 Locations | posted: 2026-09-11
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Compute-Platform-Engineer--License-Scheduling_JR2023965 | Nvidia | Compute Platform Engineer, License Scheduling - EDA Infrastructure | 5 Locations | posted: 2026-09-09
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Compute-Platform-Engineer--LSF-_JR2023960 | Nvidia | Senior Compute Platform Engineer, LSF - EDA Infrastructure | 3 Locations | posted: 2026-09-09
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Poland-Remote/Senior-Software-Engineer---Image-and-Data-Processing-Libraries_JR2022702 | Nvidia | Senior Software Engineer - Image and Data Processing Libraries | 3 Locations | posted: 2026-09-09
+
 ## Processed
 - [x] #006 | https://weworkremotely.com/remote-jobs/grafana-labs-backend-engineer-platform-stacks-ireland-remote | Grafana Labs | Backend Engineer - Platform - Stacks / Ireland / Remote | 4.8/5 | PDF ❌
 - [x] #007 | https://weworkremotely.com/remote-jobs/circleci-senior-software-engineer | CircleCI | Senior Software Engineer | 4.7/5 | PDF ❌
