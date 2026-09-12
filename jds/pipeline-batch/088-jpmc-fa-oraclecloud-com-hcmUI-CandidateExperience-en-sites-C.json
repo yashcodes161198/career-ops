@@ -1,0 +1,8 @@
+{
+  "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781017",
+  "company": "JPMorgan Chase",
+  "role": "Lead Software Engineer - (SRE principles , AI tools, AWS)",
+  "raw": "- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781017 | JPMorgan Chase | Lead Software Engineer - (SRE principles , AI tools, AWS) | Bengaluru, Karnataka, India | posted: 2026-08-28",
+  "slug": "088-jpmc-fa-oraclecloud-com-hcmUI-CandidateExperience-en-sites-C",
+  "error": "Command failed: node /Users/yash/Documents/DDIA2/career-ops/browser-extract.mjs https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781017 --max-chars 15000\n{\"error\":\"extracted 0 chars of JD text (minimum 200) — the page most likely renders its content client-side\",\"code\":\"empty_text\",\"url\":\"https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781017\"}\n"
+}

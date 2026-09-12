@@ -1,0 +1,8 @@
+{
+  "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210733928",
+  "company": "JPMorgan Chase",
+  "role": "Senior Lead Software Engineer - Python Backend Developer",
+  "raw": "- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210733928 | JPMorgan Chase | Senior Lead Software Engineer - Python Backend Developer | Bengaluru, Karnataka, India | posted: 2026-09-03",
+  "slug": "073-jpmc-fa-oraclecloud-com-hcmUI-CandidateExperience-en-sites-C",
+  "error": "Command failed: node /Users/yash/Documents/DDIA2/career-ops/browser-extract.mjs https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210733928 --max-chars 15000\n{\"error\":\"extracted 0 chars of JD text (minimum 200) — the page most likely renders its content client-side\",\"code\":\"empty_text\",\"url\":\"https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210733928\"}\n"
+}

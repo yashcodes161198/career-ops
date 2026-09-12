@@ -1,0 +1,92 @@
+candidate:
+  full_name: "Yash Yash"
+  first_name: "Yash"
+  last_name: "Yash"
+  email: "yashk.code@gmail.com"
+  phone: "+91-9113358078"
+  date_of_birth: "1999-08-16"
+  gender: "male"
+  location: "Bengaluru, India"
+  linkedin: "https://linkedin.com/in/yash-5a56a4234"
+  github: "https://github.com/yashcodes161198"
+  photo: ""
+  photo_style: rounded
+  education:
+    degree: "Bachelor of Technology"
+    branch: "Computer Science"
+    institution: "Indian Institute of Technology Ropar"
+    years: "2017-2021"
+
+target_roles:
+  primary:
+    - "Senior Backend Engineer"
+    - "Senior Software Engineer"
+    - "Senior Full-Stack Engineer"
+    - "Senior Platform Engineer"
+  archetypes:
+    - name: "Backend Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "Software Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "Full-Stack Engineer"
+      level: "Senior"
+      fit: "secondary"
+    - name: "Platform Engineer"
+      level: "Senior"
+      fit: "secondary"
+    - name: "Staff Backend Engineer"
+      level: "Staff"
+      fit: "adjacent"
+
+narrative:
+  headline: "Backend-heavy full-stack engineer building reliable Java, Spring Boot, React, TypeScript, and AWS systems"
+  exit_story: "I am looking for a senior backend role with greater ownership of distributed systems, architecture, and performance-critical services."
+  superpowers:
+    - "Backend performance and production service ownership"
+    - "REST APIs, distributed systems, and data consistency"
+    - "AI-assisted engineering automation using MCP and tool-calling agents"
+    - "Full-stack delivery with Java, Spring Boot, React, and TypeScript"
+  proof_points:
+    - name: "Production API performance"
+      hero_metric: "Reduced P99 latency 10x, from 1,200 ms to 120 ms"
+    - name: "Reporting Automation Platform"
+      hero_metric: "Saved approximately 10 hours per week across seven leaders and two teams"
+    - name: "Google DSA Interview Prep"
+      url: "https://github.com/yashcodes161198/GoogleDSA"
+      hero_metric: "Tracks approximately 770 Google LeetCode problems"
+    - name: "HTTP Server From Scratch"
+      url: "https://github.com/yashcodes161198/simple-java-http-server"
+      hero_metric: "Test-first HTTP parsing with concurrent request handling"
+    - name: "Log Monitoring Application"
+      url: "https://github.com/yashcodes161198/LogMonitor"
+      hero_metric: "Handles 100 GB log files without loading them into memory"
+
+compensation:
+  target_range: "INR 35-70 LPA"
+  currency: "INR"
+  minimum: "INR 35 LPA"
+
+location:
+  country: "India"
+  city: "Bengaluru"
+  state: "Karnataka"
+  pin: "560066"
+  current_address: "174, Hagadur Main Rd, Prestige Ozone, Whitefield, Bengaluru, Karnataka 560066"
+  timezone: "Asia/Kolkata"
+  visa_status: "Authorized to work in India; no sponsorship required"
+  authorized_in:
+    - "India"
+  needs_sponsorship: false
+
+language:
+  output: en
+
+spend_tier: standard
+
+cv:
+  output_format: "html"
+
+cover_letter:
+  notice_period_days: 0

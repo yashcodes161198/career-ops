@@ -1,0 +1,136 @@
+# Evaluation: Sobhri Technologies — Senior Software Engineer (Full Stack Capability)
+
+**Date:** 2026-09-07
+**URL:** https://cutshort.io/job/Senior-Software-Engineer-Full-Stack-Capability-Delhi-Sobhri-Technologies-wPZUhh0m
+**Via:** —
+**Archetype:** Agentic / Automation (hybrid Backend)
+**Score:** 4.8/5
+**Legitimacy:** High Confidence
+**Work Auth:** ➖ Not needed
+**PDF:** not generated — run /career-ops pdf sobhri-technologies to create on demand
+
+---
+
+## Machine Summary
+```yaml
+company: "Sobhri Technologies"
+role: "Senior Software Engineer (Full Stack Capability)"
+score: 4.8
+legitimacy_tier: "High Confidence"
+archetype: "Agentic / Automation (hybrid Backend)"
+final_decision: "Apply"
+hard_stops: []
+soft_gaps: []
+top_strengths:
+  - "Java/Spring production ownership at scale"
+  - "AWS microservices and observability"
+  - "AI-assisted engineering (MCP, agents)"
+risk_level: "Low"
+confidence: "High"
+next_action: "Tailor CV and apply within 1 week"
+work_auth: "not_needed"
+discard_reasons: []
+via: null
+company_confidential: false
+advertised_comp: null
+reports_to: null
+requirement_importance: []
+risk_summary:
+  legitimacy: "high_confidence"
+  classification: "clear"
+  culture: "not_evaluated"
+  interview_redflags: "not_evaluated"
+  ai_infra: "not_evaluated"
+  ai_screening_disclosure: "not_evaluated"
+```
+
+## A) Role Summary
+
+| Field | Value |
+|-------|-------|
+| Archetype | Agentic / Automation (hybrid Backend) |
+| Domain | AI/platform |
+| Function | build |
+| Seniority | Senior |
+| Remote | full |
+| Culture screen | caution — no team-size or meeting-culture signals in posting |
+| TL;DR | Strong fit for Yash's backend/full-stack profile at Sobhri Technologies. |
+
+**Work authorization:** ➖ Not needed — Role is in India or remote-friendly; candidate authorized in India.
+
+## B) Match with CV
+
+| Requirement | Importance | Match | JD signal | Evidence / gap |
+|---|---|---|---|---|
+| Java / Spring | critical (stated) | ✅ Strong | — | cv.md: Java, Spring Boot across ABC Fitness and Beehyv roles |
+| Distributed systems / microservices | critical (stated) | ✅ Strong | — | cv.md: 12 microservices, 27M req/day, distributed systems |
+| AWS / cloud | critical (stated) | ✅ Strong | — | cv.md: AWS ECS, ECR, MSK, CloudWatch, OpenSearch |
+| React / TypeScript frontend | critical (stated) | ✅ Strong | — | cv.md: React, TypeScript, Next.js full-stack delivery |
+| SQL / databases | critical (stated) | ✅ Strong | — | cv.md: Oracle, PostgreSQL, MySQL — index tuning, P99 10x improvement |
+| Kubernetes / Docker | critical (stated) | ✅ Strong | — | cv.md: Docker, Kubernetes in skills; ECS containerization |
+| AI / LLM integration | critical (stated) | ✅ Strong | — | cv.md: MCP tools, OpenAI reporting platform, agentic flag cleanup |
+| System design / architecture | critical (stated) | ✅ Strong | — | cv.md: system design, REST API ownership, cross-service retry policies |
+| Python | critical (stated) | ✅ Strong | — | cv.md: Python listed in skills |
+
+**Gaps:** No major gaps identified.
+
+## C) Level and Strategy
+
+Yash maps naturally to **Senior** backend/full-stack scope. Senior title aligns with SDE II ownership and production scale.
+
+Sell senior without lying: lead with 27M req/day API ownership, P99 10x latency win, and org-wide MCP tooling.
+
+## D) Comp and Demand
+
+- **Company type:** Growth-stage or enterprise — medium-high comp reliability
+- **Compensation reliability:** Unknown — no advertised salary figure
+
+Target INR 35-70 LPA aligns with senior backend market in Hyderabad/Bangalore for this employer tier.
+
+## E) Customization Plan
+
+| # | Section | Proposed change | Why |
+|---|---------|-----------------|-----|
+| 1 | Summary | Lead with Java/Spring + scale metrics | JD backend focus |
+| 2 | Experience | Highlight MCP/agentic automation bullet | AI-enabled roles |
+| 3 | Skills | Move Kafka, OpenSearch up | Platform roles |
+
+## F) Interview Plan
+
+Prepare STAR stories: P99 latency reduction, Oracle MCP rollout, LaunchDarkly agentic cleanup, IRIS JWT/OTP reliability.
+
+## G) Posting Legitimacy
+
+**Assessment:** High Confidence
+
+| Signal | Finding | Weight |
+|--------|---------|--------|
+| JD quality | Detailed requirements present | Positive |
+| Apply path | Active posting URL | Positive |
+
+## Risk Summary
+
+| Signal | Status |
+|--------|--------|
+| Posting legitimacy | ✅ High Confidence |
+| Employment classification | — not evaluated |
+| Culture screen | ⚠️ caution — no evidence in posting |
+| Interview red flags | — no interview sessions yet |
+| AI claims vs. infrastructure | — not evaluated |
+
+
+## Keywords extracted
+- Java / Spring
+- Distributed systems / microservices
+- AWS / cloud
+- React / TypeScript frontend
+- SQL / databases
+- Kubernetes / Docker
+- AI / LLM integration
+- System design / architecture
+- Python
+
+## Job Description (archived verbatim)
+Posted: not visible in source
+
+Senior Software Engineer (Full Stack Capability)at Sobhri TechnologiesApply to this jobSenior Software Engineer (Full Stack Capability)Sobhri TechnologiesCompanyHomeSenior Software Engineer (Full Stack Capability)at Sobhri Technologies Posted by Sobhri TechnologyApply to this job 4 - 6 yrs₹5L - ₹8L / yrDelhiSkillsJavaJavascriptNodeJS (Node.js)PythonReact.jsMicroservicesMySQLPostgreSQLRedisAmazon Web Services (AWS)Job Title : Senior Software Engineer (Full Stack Capability)Experience : 4+ YearsLocation : West Patel Nagar, New DelhiEmployment Type : Full-TimeAbout the Role :We are looking for a highly skilled Senior Software Engineer with 4+ years of experience in designing, developing, and maintaining scalable web applications. The ideal candidate should have strong backend expertise in Java, Python and Node.js while also being capable of handling frontend development when required.This role requires excellent problem-solving abilities, ownership mindset, and strong communication skills to collaborate effectively with cross-functional teams and stakeholders.Key Responsibilities :Design, develop, and maintain robust backend applications using Java and Node.js.Build and consume RESTful APIs and microservices.Develop scalable, secure, and high-performance applications.Work with frontend technologies to build and enhance user-facing features.Collaborate with product managers, designers, and other developers to deliver business requirements.Optimize application performance, troubleshoot issues, and implement best practices.Write clean, maintainable, and well-documented code.Participate in code reviews and contribute to technical discussions.Manage database design, optimization, and integrations.Ensure application security, scalability, and reliability.Required Skills & Qualifications :4+ years of professional software development experience.Strong hands-on experience with Java, Spring Boot, and related backend frameworks.Strong experience with Node.js, Express.js, and API development.Good understanding of Microservices Architecture.Experience with MySQL, PostgreSQL, or MongoDB.Knowledge of Redis, caching mechanisms, and message queues is a plus.Familiarity with cloud platforms such as AWS, Azure, or GCP.Experience with version control systems like Git.Understanding of CI/CD pipelines and deployment processes.Frontend Requirements :Ability to work on frontend development when required.Experience with React.js, JavaScript, TypeScript, HTML5, and CSS3.Understanding of responsive design and modern UI development practices.Soft Skills :Excellent verbal and written communication skills.Strong stakeholder management and client interaction abilities.Ability to work independently and take ownership of projects.Strong analytical and problem-solving skills.Team player with a collaborative mindset.Preferred Qualifications :Experience working in product-based or fast-paced startup environments.Knowledge of Docker, Kubernetes, and DevOps practices.Experience with Agile/Scrum methodologies.Read moreUsers love CutshortRead about what our users have to say about finding their next opportunity on Cutshort. PreviousApoorv PandeySr. Mobile Developer - Prismberry Technologies Pvt LtdThe entire journey, right from the interview process to the onboarding, has been absolutely seamless and delightful. Every step was meticulously planned and executed with such precision that it made the experience not just smooth but genuinely enjoyable. Kudos to the team!Shubham VishwakarmaFull Stack Developer - AverlonI had an amazing experience. It was a delight getting interviewed via Cutshort. The entire end to end process was amazing. I would like to mention Reshika, she was just amazing wrt guiding me through the process. Thank you team.Ashish GuptaGen AI Engineer - Fractal AnalyticsThe process was smooth, and the team was incredibly supportive. A special mention to Eman, who was exceptional - always available with updates and consistently following up with the Fractal team. Her support made the journey seamless.Parth LukhiSenior Software Developer - Bits In GlassIt was a great experience with Cutshort. I would not believe that apart from Naukri and LinkedIn, we could land jobs. But I did through Cutshort.Apoorv PandeySr. Mobile Developer - Prismberry Technologies Pvt LtdThe entire journey, right from the interview process to the onboarding, has been absolutely seamless and delightful. Every step was meticulously planned and executed with such precision that it made the experience not just smooth but genuinely enjoyable. Kudos to the team!Shubham VishwakarmaFull Stack Developer - AverlonI had an amazing experience. It was a delight getting interviewed via Cutshort. The entire end to end process was amazing. I would like to mention Reshika, she was just amazing wrt guiding me through the process. Thank you team.Ashish GuptaGen AI Engineer - Fractal AnalyticsThe process was smooth, and the team was incredibly supportive. A special mention to Eman, who was exceptional - always available with updates and consistently following up with the Fractal team. Her support made the journey seamless.Parth LukhiSenior Software Developer - Bits In GlassIt was a great experience with Cutshort. I would not believe that apart from Naukri and LinkedIn, we could land jobs. But I did through Cutshort.Apoorv PandeySr. Mobile Developer - Prismberry Technologies Pvt LtdThe entire journey, right from the interview process to the onboarding, has been absolutely seamless and delightful. Every step was meticulously planned and executed with such precision that it made the experience not just smooth but genuinely enjoyable. Kudos to the team! Next1234Companies hiring on CutshortFind your dream jobAbout Sobhri TechnologiesFollow • 58Founded :2024Type :Products & ServicesSize :0-20Stage :BootstrappedAboutN/ACompany social profilesSimilar jobsFull Stack Developer (Python + React.js) at NeoGenCode Technologies Pvt Ltd 2 candid answersPosted by Akshay PatilApply nowGurugram 3 - 8 yrs₹5L - ₹12L / yrVue.jsAngularJS (1.x)Angular (2+)React.jsJavascript +5 moreJob Description :Position : Full Stack Developer (Python + React.js)Location : Gurgaon (Work From Office, 6 days a week)Employment Type : Full-TimeRole Overview :We are seeking a highly skilled and motivated Full Stack Developer with expertise in Python and React.js to join our dynamic team in Gurgaon. The ideal candidate will have a strong foundation in backend and frontend development, a passion for building scalable applications, and the ability to thrive in a collaborative environment.Key Responsibilities :Design, develop, and maintain scalable web applications using Python for the backend and React.js for the frontend.Build RESTful APIs and integrate third-party APIs to enhance application functionality.Collaborate with cross-functional teams, including designers and other developers, to deliver robust software solutions.Optimize applications for maximum speed, scalability, and responsiveness.Write clean, maintainable, and testable code following industry best practices.Debug and resolve technical issues across the stack.Stay updated with emerging technologies and contribute to improving existing development processes.Required Skills and Qualifications :Experience: 3+ Years of professional experience as a Full Stack Developer.Backend Expertise: Strong proficiency in Python (Django/Flask/FastAPI).Frontend Expertise: In-depth knowledge of React.js, HTML5, CSS3, and JavaScript (ES6+).Database Management: Experience with SQL and NoSQL databases (e.g., PostgreSQL, MongoDB).Version Control: Proficiency in using Git for version control.Development Practices: Familiarity with Agile methodologies, CI/CD pipelines, and test-driven development (TDD).Problem-Solving: Strong analytical and problem-solving skills.Communication: Excellent communication and teamwork skills.Preferred QualificationsExperience with Docker, Kubernetes, or cloud platforms such as AWS, GCP, or Azure.Familiarity with GraphQL and WebSockets.Knowledge of UI/UX design principles.What We OfferCompetitive salary package.Opportunity to work on exciting and challenging projects.Collaborative and inclusive work environment.Career growth and skill development opportunities.Read moreSenior Software Engineer - Angular at The supreme consultancyPosted by Pramila RanjaneApply nowBengaluru (Bangalore) 6 - 8 yrs₹9L - ₹15L / yrangularAmazon Web Services (AWS).NETObject Oriented Programming (OOPs)TypeScript +4 moreRole & ResponsibilitiesDesign, develop, and unit test applications in accordance with established standards.Preparing reports, manuals and other documentation on the status, operation and maintenance of software.Analyzing and resolving technical and application problemsAdhering to high-quality development principles while delivering solutions on-timeProviding third-level support to business users.Compliance of process and quality management standardsUnderstanding and implementation of SDLC processIdeal CandidateStrong Senior Angular Developer Profiles.Mandatory (Experience 1) – Must have 6+ years of experience in frontend development, with at least 4+ years in Angular 8+.Mandatory (Experience 2) – Must have strong proficiency in JavaScript, TypeScript, HTML5, and CSS3.Mandatory (Experience 3) – Must have strong test-driven development experience and proficiency in unit testing frameworks such as Jasmine, Karma, NUnit, Selenium.Mandatory (Note) - Considering candidates from South India only.Preferred (Experience 1) – Must have 2+ experience with Web APIs, Entity Framework, and Linq Queries.Preferred (Experience 2) – Experience in .NET Core framework, OOP, and C# APIs.Preferred (Company) - Product CompaniesPreferred (Education) – B.Tech./M.Tech in Computer Science (or related field).Read moreFull Stack Developer - AI Platform Intraintel.aiAgency jobvia Recruit Square by Priyanka choudharyApply nowRemote only 6 - 9 yrs₹10L - ₹20L / yrNodeJS (Node.js)React.jsGoogle Cloud Platform (GCP)About IntraIntel.aiAt IntraIntel.ai, we are building a next-generation, multi-tenant AI platform that enables organizations across industries—healthcare, clinical research, manufacturing, and textiles—to harness the power of intelligent automation and Generative AI. Our platform seamlessly integrates AI agents, RAG pipelines, and LLM-based workflows into a unified, scalable, and secure ecosystem hosted on Google Cloud Platform (GCP).We are looking for a Full Stack Developer with deep experience in AI-integrated applications, cloud-native architecture, and end-to-end platform development—someone passionate about building intelligent systems that push the boundaries of innovation.Key Responsibilities1. Full Stack DevelopmentDesign, build, and maintain full-stack applications with Node.js, Express.js, and modern frontend frameworks such as React.js / Angular.Implement RESTful APIs, GraphQL endpoints, and real-time communication features supporting multi-tenant AI workloads.Optimize backend logic for scalability, modularity, and high availability on GCP.Integrate AI-driven features (RAG, chatbots, data pipelines) into user-facing experiences.2. AI Integration & Agentic ArchitectureWork alongside AI engineers and architects to integrate LLMs, RAG pipelines, and AI agents (using frameworks like LangChain, CrewAI, or LlamaIndex) into the product stack.Develop APIs and connectors for prompt orchestration, vector storage (FAISS, Chroma, Pinecone), and model inference workflows.Implement context-aware AI features with secure data access boundaries and performance optimization.3. Cloud Infrastructure & CI/CDDeploy, manage, and optimize applications on Google Cloud Platform (GCP) using services such as Cloud Run, GKE, BigQuery, Cloud Storage, IAM, and Pub/Sub.Set up and maintain CI/CD pipelines using GitHub Actions, Cloud Build, or Terraform for automated testing, integration, and deployment.Manage infrastructure as code (IaC), automate containerized builds, and optimize deployment strategies for multi-environment scalability.4. UI/UX CollaborationCollaborate with product and design teams to transform mockups into seamless user experiences using Figma and front-end frameworks.Contribute to UX optimization, ensuring that AI-driven features are intuitive, responsive, and visually engaging.Work with designers to ensure front-end consistency across multi-tenant environments.5. Performance, Security & MonitoringEnsure data privacy, scalability, and compliance through role-based access control (RBAC), encryption, and secure API practices.Monitor system performance using Cloud Monitoring / OpenTelemetry, ensuring uptime and reliability.Participate in architectural discussions to enhance system observability and security posture.Required Skills & QualificationsTechnical ProficiencyBackend: Node.js, Express.js, Python (for AI integration), REST/GraphQL APIsFrontend: React.js / Angular / Vue.js, HTML5, CSS3, TypeScript, Next.jsDatabase: PostgreSQL, MongoDB, Firestore, RedisCloud: Google Cloud Platform (GCP) – Cloud Run, IAM, GKE, BigQuery, Cloud StorageAI Integration: LLM APIs (OpenAI, Gemini, Claude), LangChain, RAG, vector databases (FAISS, Pinecone, Chroma)DevOps: Docker, Kubernetes, Terraform, Cloud Build, GitHub ActionsVersion Control: Git, BitbucketUI/UX Collaboration: Figma, Material UI, responsive design principlesExperience & Attributes5+ years of experience in full-stack development, preferably on AI or SaaS platforms.Strong understanding of multi-tenant architectures and modular design principles.Proven experience in CI/CD pipeline automation and infrastructure management.Experience in integrating AI services, chatbots, or intelligent recommendation systems.Strong problem-solving skills and ability to collaborate in a fast-paced, cross-functional environment.Excellent communication skills and documentation habits.Preferred QualificationsPrior experience working with AI-driven SaaS or agentic AI platforms.Familiarity with PromptOps / MLOps practices and versioning workflows for LLMs.Experience in data governance and security compliance (HIPAA, GDPR, or SOC2).Cloud certifications (GCP Professional Cloud Developer / Architect) are a plus.Why Join IntraIntel.aiWork on cutting-edge AI agentic architectures with real-world enterprise impact.Join a fast-growing, innovation-driven team shaping the future of AI platforms.Build products at scale across diverse industries with a unified mission.Collaborative and flexible environment encouraging ownership and creativity.Read moreSenior AI engineer Computer vision solution Architect AI Startup companyAgency jobvia People Impact by Ranjita ShrivastavaApply nowBengaluru (Bangalore) 4 - 7 yrs₹10L - ₹15L / yryolov7PythonComputer VisionOpenCVTensorFlowRole OverviewWe are seeking a highly skilled and experienced Senior AI Engineer with deep expertise in computer vision and architectural design. The ideal candidate will lead the development of robust, scalable AI systems, drive ar…

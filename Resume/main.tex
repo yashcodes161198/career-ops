@@ -1,0 +1,201 @@
+% Final XYZ-formula resume.
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{cfr-lm}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\definecolor{sectionblue}{HTML}{1F4E79}
+
+\geometry{left=1.3cm, top=1.0cm, right=1.3cm, bottom=1.0cm}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \color{sectionblue}\vspace{4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{sectionblue}\titlerule \vspace{-2pt}]
+
+\newcommand{\teamFontSize}[1]{{\fontsize{10}{12}\selectfont #1}}
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+  \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textit{\footnotesize{#4}} \\
+    \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+  \end{tabular*}
+  \vspace{-2.4mm}
+}
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+  \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textit{\footnotesize{#3}} \\
+    \footnotesize{\textit{#2}} & \footnotesize{#4}
+  \end{tabular*}
+  \vspace{-2.4mm}
+}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex,rightmargin=2ex,labelsep=1.2mm,itemsep=2.6pt,topsep=2pt]\small}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\name}{Yash}
+\newcommand{\phone}{9113358078}
+\newcommand{\email}{yashk.code@gmail.com}
+\newcommand{\github}{yashcodes161198}
+\newcommand{\linkedin}{yash-5a56a4234}
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+
+\begin{center}
+  {\LARGE \textbf{\name}}\\[1.2mm]
+  \footnotesize{
+  Hyderabad, India $\enspace|\enspace$ +91-\phone $\enspace|\enspace$
+  \href{mailto:\email}{\email} $\enspace|\enspace$
+  \href{https://www.linkedin.com/in/\linkedin/}{linkedin.com/in/\linkedin} $\enspace|\enspace$
+  \href{https://github.com/\github}{github.com/\github}
+  }
+\end{center}
+
+\vspace{-1mm}
+\section{\textbf{Summary}}
+\vspace{0.7mm}
+\small{Backend-heavy full-stack engineer (Java/Spring Boot, React/TypeScript, AWS) scaling services that support \textasciitilde{}27M requests/day and \textasciitilde{}20M monthly active members. Delivered a 10x P99 latency reduction and production AI automations (OpenAI + Cursor agents) that removed dozens of stale f{}lags and 10+ eng-hrs/month of toil.}
+\vspace{-2mm}
+
+\section{\textbf{Education}}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Indian Institute of Technology Ropar}{Rupnagar, Punjab}
+    {Bachelor of Technology}{2017 -- 2021}
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+\section{\textbf{Professional Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {\begin{large}ABC Fitness Solutions India\end{large}}{Hyderabad, India}
+  {Software Development Engineer II}{Mar 2025 -- Present}
+
+\vspace{2mm}
+\teamFontSize{\textbf{Memberships \& Operations}}
+\vspace{-0.8mm}
+\resumeItemListStart
+  \item {Cut \textbf{P99 latency 10x} (1,200\,ms to 120\,ms) and \textbf{P50 20\%} by owning \textbf{REST API design} for query/f{}ilter semantics and rewriting hot-path \textbf{SQL} around index-friendly access patterns.}
+  \item {Published an organization-wide \textbf{Oracle MCP} for AI-assisted diagnostics across \textbf{4 environments} (dev, beta, staging, prod), enforcing mandatory VPD scoping, three-layer read-only controls, 100-row caps, and 15-second connection timeouts.}
+  \item {Accelerated AI-assisted ticket investigation by building and hosting an organization-wide \textbf{BackTrak MCP} for audit trails and point-in-time snapshots across any DataTrak table, resolving VPD-scoped rows through primary and composite keys.}
+  \item {Standardized retry and backof{}f across \textbf{12 microservices} by centralizing \textbf{Spring Retry} policy in \textbf{Spring Cloud Conf{}ig} with runtime tuning and CloudWatch/OpenSearch observability.}
+  \item {Reduced code-review rework by \textasciitilde{}25\% by conducting \textbf{code reviews} for backend/full-stack changes and enforcing test coverage, performance, and coding standards before merge.}
+  \item {Reduced \textbf{duplicate member creation} by \textasciitilde{}90\% by adding request validation, backend dedupe safeguards, and reconciliation logging.}
+  \item {Cut erroneous \textbf{refund prompts} to \textasciitilde{}0 and related support tickets by \textasciitilde{}30\% by triggering prompts only after conf{}irmed cancellation.}
+  \item {Eliminated dozens of stale \textbf{LaunchDarkly} f{}lags and saved \textbf{10+ eng-hrs/month} by building an agentic AI tool that opens Jira-linked, test-verif{}ied cleanup pull requests through Git/Jira/CI tool calls.}
+\resumeItemListEnd
+
+\vspace{-1mm}
+\teamFontSize{\textbf{Reporting Automation Platform} \textnormal{\footnotesize(self-initiated, one-week build)}}
+\vspace{-0.8mm}
+\resumeItemListStart
+  \item {Saved \textasciitilde{}10 hrs/week across \textbf{7 leaders and 2 teams} by shipping an OpenAI-powered full-stack \textbf{LLM application} that collects metrics and generates Excel/PPT/email leadership updates.}
+  \item {Raised on-time responses from \textbf{60\% to 95\%} and cut turnaround from \textasciitilde{}2 days to under 2 hours by combining prompt engineering, structured outputs, sentiment analysis, and Quartz reminders.}
+\resumeItemListEnd
+
+\vspace{0mm}
+\resumeSubheading
+  {\begin{large}Beehyv Software Solutions\end{large}}{Hyderabad, India}
+  {Software Development Engineer (FullStack)}{Aug 2022 -- Mar 2025}
+
+\vspace{2mm}
+\teamFontSize{\textbf{IRIS}}
+\vspace{-0.8mm}
+\resumeItemListStart
+  \item {Secured all customer-facing \textbf{REST APIs} for \textbf{1,000+ banking users} at the Reserve Bank of South Africa by building JWT login and email-verif{}ied password reset flows.}
+  \item {Sustained \textbf{99.9\% authentication availability} through provider outages by designing a fault-tolerant OTP service with Plivo/Exotel circuit-breaker failover and response caching.}
+  \item {Remediated \textbf{10+ injection f{}indings}, including \textbf{3 high-severity} issues, by implementing a global XSS sanitization f{}ilter across API inputs.}
+  \item {Standardized scheduled-job execution across \textbf{6 internal teams} by designing and deploying a fault-tolerant scheduler microservice on \textbf{AWS ECS}.}
+  \item {Reduced duplicate invoice writes to \textasciitilde{}0 by designing concurrent \textbf{REST API contracts} with \textbf{idempotency keys}, row-level locks, and Oracle Flexcube data-consistency controls.}
+  \item {Raised unit/integration coverage to \textbf{85\%+} by building \textbf{JUnit/Mockito} suites across critical service paths.}
+\resumeItemListEnd
+
+\vspace{-1mm}
+\newpage
+\teamFontSize{\textbf{Beesheets}}
+\vspace{-0.8mm}
+\resumeItemListStart
+  \item {Cut payroll-report generation time by \textbf{95\%} by optimizing SQL queries and adding targeted indexes.}
+  \item {Delivered \textasciitilde{}10K notif{}ications/day by building an event-driven \textbf{Kafka / Amazon MSK} pub/sub architecture that decoupled producers from consumers.}
+  \item {Cut access-provisioning time by \textasciitilde{}80\% by integrating \textbf{Keycloak} RBAC and automating user provisioning through the Keycloak Admin REST API.}
+  \item {Cut per-hire IT setup from \textasciitilde{}20 minutes to seconds for \textbf{200+ employees} by auto-provisioning Microsoft 365 accounts through the \textbf{MS Graph API}.}
+  \item {Cut deployment time by \textasciitilde{}70\% by containerizing Beesheets with \textbf{Docker} and deploying images through \textbf{AWS ECR/ECS}.}
+  \item {Eliminated paid-tier grid licensing cost (\textbf{\$0}) by building custom AgGrid column f{}ilters with React, Redux, TypeScript, and Spring Boot.}
+  \item {Reduced duplicate UI work across \textbf{8+ screens} by engineering reusable React and TypeScript f{}ilter and date-range components validated with Jest and React Testing Library.}
+  \item {Graduated \textbf{3 new engineers} into productive full-stack developers within \textbf{6 months} by running daily standups, reviewing code/designs, and conducting assessments.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-1mm}
+\noindent\begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  \textbf{Career Break} & \textit{\footnotesize{2021 -- 2022}}
+\end{tabular*}\\[-0.5mm]
+{\small Full-time preparation for India's UPSC Civil Services Examination.}
+
+\vspace{-2mm}
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+  \resumeProject
+    {Google DSA Interview Prep}{}
+    {Jun 2026 -- Present}
+    {\href{https://github.com/yashcodes161198/GoogleDSA}{\textbf{github.com/yashcodes161198/GoogleDSA}}}
+  \resumeItemListStart
+    \vspace{-0.8mm}
+    \item {Built a Next.js 16 + TypeScript platform tracking \textbf{\textasciitilde{}770 Google LeetCode problems} with Supabase/PostgreSQL, RLS, progress analytics, and topic-gap coverage.}
+    \item {Shipped \textbf{2-hour mock interviews} with 5 weighted problems and implemented SM-2 spaced repetition plus Supabase Auth; deployed on Vercel.}
+  \resumeItemListEnd
+
+  \vspace{2mm}
+  \resumeProject
+    {Http-Server-From-Scratch}{}
+    {Jun 2024 -- Jul 2024}
+    {\href{https://github.com/yashcodes161198/simple-java-http-server}{\textbf{github.com/yashcodes161198/simple-java-http-server}}}
+  \resumeItemListStart
+    \vspace{-0.8mm}
+    \item {Built custom HTTP parsing/validation with strict format checks using a test-f{}irst (TDD) workflow.}
+    \item {Handled concurrent client requests through multithreading.}
+  \resumeItemListEnd
+
+  \vspace{2mm}
+  \resumeProject
+    {Log Monitoring Application}{}
+    {Mar 2023 -- Apr 2023}
+    {\href{https://github.com/yashcodes161198/LogMonitor}{\textbf{github.com/yashcodes161198/LogMonitor}}}
+  \resumeItemListStart
+    \vspace{-0.8mm}
+    \item {Streamed append-only log updates to multiple subscribers through persistent WebSockets using Spring Boot and React.}
+    \item {Handled \textbf{100 GB log f{}iles} without loading them into memory by combining Java WatchService with an optimized tail reader.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-2mm}
+\section{\textbf{Skills}}
+{\small
+\noindent\textbf{Frameworks:} \textbf{Spring Boot, Spring Security, React.js, Next.js} \\[1.5mm]
+\textbf{AI / LLM:} Model Context Protocol (MCP), OpenAI API, LLM applications, AI agents (tool/function calling), prompt engineering \\[1.5mm]
+\textbf{Languages:} Java, TypeScript, JavaScript, Python, Go, C/C++ \\[1.5mm]
+\textbf{Cloud (AWS):} ECS, ECR, S3, RDS, MSK, OpenSearch Service, CloudWatch, Lambda \\[1.5mm]
+\textbf{Databases:} SQL --- MySQL, OracleDB, PostgreSQL; NoSQL --- MongoDB, Apache Cassandra, Redis (caching) \\[1.5mm]
+\textbf{Tools \& Platforms:} Kafka, Zookeeper, Docker, Kubernetes, OpenSearch, LaunchDarkly, Linux, Git, GitHub \\[1.5mm]
+\textbf{Testing:} JUnit, Mockito, Jest, React Testing Library \\[1.5mm]
+\textbf{Dev \& Infra:} CI/CD, REST APIs, Microservices, Grafana/AppDynamics, Tracing, Spring Cloud Conf{}ig \\[1.5mm]
+\textbf{CS Fundamentals:} Data Structures \& Algorithms, System Design, Distributed Systems, Design Patterns
+}
+
+\end{document}

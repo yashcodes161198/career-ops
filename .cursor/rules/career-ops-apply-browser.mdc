@@ -1,0 +1,16 @@
+---
+description: Cursor browser apply workflow — visible panel, Attach then wait, Greenhouse dropdowns
+alwaysApply: true
+---
+
+# Career-ops browser apply (Cursor)
+
+When applying to jobs via the Cursor browser MCP:
+
+1. Open the posting in the **visible** Glass browser (`open_resource` or `glass-browser-*` tab). Scroll to **“Apply for this job”** before filling.
+2. Confirm the user sees the form before filling fields.
+3. **Resume:** click **Attach**, then **wait for the user** to pick `Resume/Yash_Resume.pdf` and say **“done”**. Never use the file picker or an off-screen Playwright upload.
+4. Greenhouse dropdowns: **Toggle flyout** → click option (not `browser_select_option`).
+5. Submit only after user authorization and a complete form; then `node set-status.mjs <#> Applied`.
+
+Portal emails and skip rules: see `modes/_custom.md` § Portal Accounts and Browser Apply Workflow.
