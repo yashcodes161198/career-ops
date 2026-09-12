@@ -11,7 +11,7 @@
 
 ## Custom Workflows
 
-- "daily search": scan configured sources, deduplicate results, evaluate only the strongest matches, and present a shortlist without generating documents.
+- "daily search": scan configured sources (senior **and mid-level** engineering titles per `portals.yml`), deduplicate results, evaluate only the strongest matches, and present a shortlist without generating documents.
 - "prepare application": verify the posting is live, evaluate fit, ask for approval, then create only the approved documents.
 
 ## Output Preferences

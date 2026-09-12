@@ -1,5 +1,8 @@
-# India-focused discovery for senior backend, platform, and full-stack roles.
+# India-focused discovery for senior and mid-level backend, platform, and full-stack roles.
 # Personal company targets can be added under tracked_companies.
+
+# Skip intern/entry tiers only — mid-level and senior both pass the tier classifier.
+skip_tiers: [intern, entry]
 
 scan_history:
   recheck_after_days: 21
@@ -59,9 +62,15 @@ country_eligibility_filter:
     - "apac"
 
 title_filter:
-  skip_tiers: [intern, entry]
   positive:
     - "Senior Software Engineer"
+    - "Software Engineer"
+    - "Software Development Engineer"
+    - "SDE"
+    - "Mid-Level Software Engineer"
+    - "Mid Level Software Engineer"
+    - "Software Engineer II"
+    - "Engineer II"
     - "Staff Software Engineer"
     - "Lead Software Engineer"
     - "Principal Software Engineer"
@@ -110,69 +119,69 @@ title_filter:
 # The zero-token `npm run scan` command does not execute WebSearch queries.
 search_queries:
   - name: LinkedIn India backend and full-stack
-    query: 'site:linkedin.com/jobs/view ("Senior Software Engineer" OR "Staff Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
+    query: 'site:linkedin.com/jobs/view ("Senior Software Engineer" OR "Staff Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
     enabled: true
 
   - name: Naukri backend and full-stack
-    query: 'site:naukri.com ("Senior Software Engineer" OR "Backend Engineer" OR "Java Developer" OR "Java Backend Developer" OR "Java Full Stack Developer" OR "Spring Boot Developer") ("Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
+    query: 'site:naukri.com ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Java Developer" OR "Java Backend Developer" OR "Java Full Stack Developer" OR "Spring Boot Developer") ("Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
     enabled: true
 
   - name: Instahyre backend and full-stack
-    query: 'site:instahyre.com ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Remote")'
+    query: 'site:instahyre.com ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Remote")'
     enabled: true
 
   - name: Wellfound India backend and full-stack
-    query: 'site:wellfound.com/jobs ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Java Developer" OR "Full Stack Engineer") ("India" OR "Remote")'
+    query: 'site:wellfound.com/jobs ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Platform Engineer" OR "Java Developer" OR "Full Stack Engineer") ("India" OR "Remote")'
     enabled: true
 
-  - name: Hirist senior engineering
-    query: 'site:hirist.tech ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer")'
+  - name: Hirist engineering
+    query: 'site:hirist.tech ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Full Stack Engineer")'
     enabled: true
 
-  - name: Cutshort senior engineering
-    query: 'site:cutshort.io/job ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer")'
+  - name: Cutshort engineering
+    query: 'site:cutshort.io/job ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Full Stack Engineer")'
     enabled: true
 
-  - name: Foundit India senior engineering
-    query: 'site:foundit.in ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer")'
+  - name: Foundit India engineering
+    query: 'site:foundit.in ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Full Stack Engineer")'
     enabled: true
 
   # Fishbowl is primarily a professional community, so this query discovers
   # public hiring and referral posts rather than conventional job-board pages.
   - name: Fishbowl India engineering hiring and referrals
-    query: 'site:fishbowlapp.com/post ("hiring" OR "referral" OR "refer") ("Senior Software Engineer" OR "Backend Engineer" OR "Java Developer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
+    query: 'site:fishbowlapp.com/post ("hiring" OR "referral" OR "refer") ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Java Developer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
     enabled: true
 
   - name: Greenhouse India
-    query: 'site:job-boards.greenhouse.io ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Remote")'
+    query: 'site:job-boards.greenhouse.io ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Remote")'
     enabled: true
 
   - name: Ashby India
-    query: 'site:jobs.ashbyhq.com ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Remote")'
+    query: 'site:jobs.ashbyhq.com ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Remote")'
     enabled: true
 
   - name: Lever India
-    query: 'site:jobs.lever.co ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Remote")'
+    query: 'site:jobs.lever.co ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Remote")'
     enabled: true
 
   - name: Requested senior employers group 1
-    query: '("Amazon" OR "Arcesium" OR "Atlassian" OR "CodeNation" OR "Coinbase" OR "D. E. Shaw" OR "Flipkart" OR "Goldman Sachs" OR "Harness" OR "Morgan Stanley" OR "Rippling" OR "Sprinklr" OR "Tower Research" OR "Uber" OR "Zepto" OR "Zomato") ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
+    query: '("Amazon" OR "Arcesium" OR "Atlassian" OR "CodeNation" OR "Coinbase" OR "D. E. Shaw" OR "Flipkart" OR "Goldman Sachs" OR "Harness" OR "Morgan Stanley" OR "Rippling" OR "Sprinklr" OR "Tower Research" OR "Uber" OR "Zepto" OR "Zomato") ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
     enabled: true
 
   - name: Requested senior employers group 2
-    query: '("Airbnb" OR "LG Ad Solutions" OR "AppDynamics" OR "Aviso" OR "Bloomreach" OR "Cohesity" OR "Compass" OR "Curefit" OR "Gojek" OR "Grab" OR "Hasura" OR "HealthifyMe" OR "Instabase" OR "MotorQ" OR "Oracle OCI" OR "Palo Alto Networks") ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
+    query: '("Airbnb" OR "LG Ad Solutions" OR "AppDynamics" OR "Aviso" OR "Bloomreach" OR "Cohesity" OR "Compass" OR "Curefit" OR "Gojek" OR "Grab" OR "Hasura" OR "HealthifyMe" OR "Instabase" OR "MotorQ" OR "Oracle OCI" OR "Palo Alto Networks") ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
     enabled: true
 
   - name: Requested senior employers group 3
-    query: '("Postman" OR "Practo" OR "Quadeye" OR "Qubole" OR "Rubrik" OR "ShareChat" OR "Stripe" OR "Sumo Logic" OR "Swiggy" OR "Target" OR "Udaan" OR "Vizury" OR "Whatfix" OR "WorldQuant") ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
+    query: '("Postman" OR "Practo" OR "Quadeye" OR "Qubole" OR "Rubrik" OR "ShareChat" OR "Stripe" OR "Sumo Logic" OR "Swiggy" OR "Target" OR "Udaan" OR "Vizury" OR "Whatfix" OR "WorldQuant") ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
     enabled: true
 
   - name: Requested senior employers group 4
-    query: '("Box8" OR "DoorDash" OR "Cloudera" OR "Dunzo" OR "Jio" OR "Juniper Networks" OR "MakeMyTrip" OR "MyGate" OR "PayPal" OR "Razorpay" OR "SanDisk" OR "Twilio" OR "upGrad") ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
+    query: '("Box8" OR "DoorDash" OR "Cloudera" OR "Dunzo" OR "Jio" OR "Juniper Networks" OR "MakeMyTrip" OR "MyGate" OR "PayPal" OR "Razorpay" OR "SanDisk" OR "Twilio" OR "upGrad") ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
     enabled: true
 
   - name: Requested senior employers group 5
-    query: '("Akamai" OR "Atlassian" OR "Okta" OR "BrowserStack" OR "Coinbase" OR "Confluent" OR "GitHub" OR "GitLab" OR "Meta" OR "Shopify" OR "Salesforce Slack" OR "Block Square" OR "Stack Overflow") ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
+    query: '("Akamai" OR "Atlassian" OR "Okta" OR "BrowserStack" OR "Coinbase" OR "Confluent" OR "GitHub" OR "GitLab" OR "Meta" OR "Shopify" OR "Salesforce Slack" OR "Block Square" OR "Stack Overflow") ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote India")'
     enabled: true
 
 # Canonical company labels for dedup across ATS naming variants.
@@ -403,7 +412,7 @@ tracked_companies:
     careers_url: https://www.amazon.jobs/en/search
     provider: amazon
     amazon:
-      base_query: "senior software engineer"
+      base_query: "software engineer"
       loc_query: "India"
     enabled: true
 

@@ -68,13 +68,13 @@
 | 71 | 2026-09-07 | JPMorgan Chase | — | Lead Software Engineer - Terraform, Python, Kubernetes | 4.8/5 | Evaluated | ❌ | [071](../reports/071-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
 | 72 | 2026-09-07 | JPMorgan Chase | — | Lead Software Engineer - Python, Trading | 4.8/5 | Evaluated | ❌ | [089](../reports/089-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation. Re-eval 2026-09-07 (4.8→4.8) |
 | 73 | 2026-09-07 | JPMorgan Chase | — | Lead Software Engineer- Linux | 4.8/5 | Evaluated | ❌ | [073](../reports/073-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
-| 74 | 2026-09-07 | JPMorgan Chase | — | Lead Software Engineer - Java Full Stack | 4.8/5 | Evaluated | ❌ | [096](../reports/096-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation. Re-eval 2026-09-07 (4.8→4.8). Re-eval 2026-09-07 (4.8→4.8). Re-eval 2026-09-07 (4.8→4.8). Re-eval 2026-09-07 (4.8→4.8) |
+| 74 | 2026-09-07 | JPMorgan Chase | — | Lead Software Engineer - Java Full Stack | 4.8/5 | Evaluated | ❌ | [096](../reports/096-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation; job id 210777136 |
 | 75 | 2026-09-07 | JPMorgan Chase | — | Principal Software Engineer -Forward Deployment Engineer - Databricks | 4.8/5 | Evaluated | ❌ | [075](../reports/075-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
 | 77 | 2026-09-07 | JPMorgan Chase | — | Senior Lead Software Engineer - Java, Kafka, Cloud | 4.8/5 | Evaluated | ❌ | [077](../reports/077-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
 | 83 | 2026-09-07 | JPMorgan Chase | — | Lead Software Engineer - Java, Spring boot, Microservices , Real time application | 4.8/5 | Evaluated | ❌ | [083](../reports/083-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
 | 84 | 2026-09-07 | JPMorgan Chase | — | Software Engineer III - Platform Engineer | 4.8/5 | Evaluated | ❌ | [084](../reports/084-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
 | 85 | 2026-09-07 | JPMorgan Chase | — | Lead Software Engineer- Back-end Engineer - Chase UK | 4.8/5 | Evaluated | ❌ | [085](../reports/085-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
-| 86 | 2026-09-07 | JPMorgan Chase | — | Sr Lead Software Engineer - Agentic AI Solutions | 4.8/5 | Evaluated | ❌ | [086](../reports/086-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
+| 86 | 2026-09-07 | JPMorgan Chase | — | Sr Lead Software Engineer - Agentic AI Solutions | 4.8/5 | Applied | ❌ | [086](../reports/086-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation; Applied via JPMC Oracle Cloud 2026-09-12; job 210771336; Bengaluru |
 | 87 | 2026-09-07 | JPMorgan Chase | — | Senior Lead Software Engineer - Java/Python fullstack, Public cloud | 4.8/5 | Evaluated | ❌ | [087](../reports/087-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
 | 88 | 2026-09-07 | JPMorgan Chase | — | Lead Software Engineer - Java/Python Backend | 4.8/5 | Evaluated | ❌ | [088](../reports/088-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
 | 90 | 2026-09-07 | JPMorgan Chase | — | Lead Software Engineer - Lead Data Architect | 4.8/5 | Evaluated | ❌ | [090](../reports/090-jpmorgan-chase-2026-09-07.md) | Pipeline batch evaluation |
@@ -94,3 +94,14 @@
 | 108 | 2026-09-07 | Nvidia | — | Senior Software Engineer Aerial Platform | 4.8/5 | Evaluated | ❌ | [111](../reports/111-nvidia-2026-09-07.md) | Pipeline batch evaluation. Re-eval 2026-09-07 (4.8→4.8) |
 | 109 | 2026-09-07 | Nvidia | — | Senior Software Engineer – Accelerated Quantum Chemistry and cuEST | 4.8/5 | Evaluated | ❌ | [109](../reports/109-nvidia-2026-09-07.md) | Pipeline batch evaluation |
 | 110 | 2026-09-07 | Nvidia | — | Senior Software Engineer, DriveAV - Autonomous Vehicles | 4.8/5 | Evaluated | ❌ | [110](../reports/110-nvidia-2026-09-07.md) | Pipeline batch evaluation |
+| 112 | 2026-09-12 | Rippling | — | Senior Software Engineer | N/A | Applied | ❌ | — | Applied via Rippling ATS 2026-09-12; Bangalore; yashk.code@gmail.com; job e83a7c14 |
+| 113 | 2026-09-12 | Rippling | — | Senior Software Engineer - Accounting Integrations | N/A | Applied | ❌ | — | Applied via Rippling ATS 2026-09-12; Bangalore; yashk.code@gmail.com |
+| 114 | 2026-09-12 | Rippling | — | Senior Software Engineer - AI Governance | N/A | Applied | ❌ | — | Applied via Rippling ATS 2026-09-12; Bangalore; yashk.code@gmail.com |
+| 115 | 2026-09-12 | Rippling | — | Senior Software Engineer - AI Initiative | N/A | Applied | ❌ | — | Applied via Rippling ATS 2026-09-12; Bangalore; yashk.code@gmail.com |
+| 116 | 2026-09-12 | Rippling | — | Senior Software Engineer - Codeship | N/A | Applied | ❌ | — | Applied via Rippling ATS 2026-09-12; Bangalore; yashk.code@gmail.com |
+| 117 | 2026-09-12 | Rippling | — | Senior Software Engineer - Data Catalog | N/A | Applied | ❌ | — | Applied via Rippling ATS 2026-09-12; Bangalore; yashk.code@gmail.com |
+| 118 | 2026-09-12 | Rippling | — | Senior Software Engineer - Global Payroll | N/A | Applied | ❌ | — | Applied via Rippling ATS 2026-09-12; Bangalore; yashk.code@gmail.com |
+| 119 | 2026-09-12 | JPMorgan Chase | — | Lead Software Engineer - Python & Java, AWS, Terraform (Data Engineer) | N/A | Applied | ❌ | — | Applied via JPMC Oracle Cloud 2026-09-12; Hyderabad; job 210786653 |
+| 120 | 2026-09-12 | JPMorgan Chase | — | Lead Software Engineer - Java Backend | N/A | Applied | ❌ | — | Applied via JPMC Oracle Cloud 2026-09-12; Hyderabad; job id 210788834 |
+| 122 | 2026-09-12 | JPMorgan Chase | — | Lead Software Engineer - Java, React, AWS | N/A | Applied | ❌ | — | Applied via JPMC Oracle Cloud 2026-09-12; Bengaluru; job id 210770681 |
+| 123 | 2026-09-12 | JPMorgan Chase | — | Lead Software Engineer - Java, AWS | N/A | Applied | ❌ | — | Applied via JPMC Oracle Cloud 2026-09-12; Hyderabad; job id 210789751 |

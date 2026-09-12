@@ -4,6 +4,8 @@
 
 | Archetype | Thematic axes | What employers buy |
 |-----------|---------------|--------------------|
+| **Software Engineer (Mid)** | Backend or full-stack delivery, production code, team collaboration | A solid IC who ships reliable features and grows toward senior ownership |
+| **Backend Engineer (Mid)** | REST APIs, data stores, service integration, debugging | An engineer who implements and maintains backend systems with guidance |
 | **Senior Backend Engineer** | APIs, distributed systems, data stores, reliability, performance | An engineer who owns production services end to end |
 | **Staff Backend Engineer** | Architecture, technical direction, cross-team systems, mentoring | A technical leader who improves systems and engineering decisions across teams |
 | **Senior Platform Engineer** | Developer platforms, cloud infrastructure, observability, delivery systems | An engineer who makes product teams faster and production systems safer |
