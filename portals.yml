@@ -11,6 +11,22 @@ scan_history:
 max_posting_age_days: 21
 
 location_filter:
+  block_hard:
+    - "Remote - USA"
+    - "Remote - US"
+    - "US, Remote"
+    - "United States, Remote"
+    - "Remote, United States"
+    - "Remote - Ireland"
+    - "Remote, Ireland"
+    - "Remote - United Kingdom"
+    - "Remote, United Kingdom"
+    - "Remote - Canada"
+    - "Remote, Canada"
+    - "Remote - Poland"
+    - "Remote, Poland"
+    - "Remote - Slovenia"
+    - "Remote, Slovenia"
   always_allow:
     - "India"
     - "Bengaluru"
@@ -71,9 +87,6 @@ title_filter:
     - "Mid Level Software Engineer"
     - "Software Engineer II"
     - "Engineer II"
-    - "Staff Software Engineer"
-    - "Lead Software Engineer"
-    - "Principal Software Engineer"
     - "Backend Engineer"
     - "Back End Engineer"
     - "Backend Developer"
@@ -106,20 +119,42 @@ title_filter:
     - "QA"
     - "Quality Assurance"
     - "Support Engineer"
+    - "Front-end"
+    - "word:Staff"
+    - "word:Principal"
+    - "word:Architect"
+    - "word:Manager"
+    - "word:Director"
+    - "SDE-1"
+    - "SDE 1"
+    - "Tech Lead"
+    - "Technical Lead"
+    - "Lead Software"
+    - "Lead Backend"
+    - "Lead Platform"
+    - "Lead Full Stack"
+    - "Lead Full-Stack"
+    - "Engineering Lead"
     - "Salesforce"
     - "SAP "
     - "WordPress"
   seniority_boost:
     - "Senior"
-    - "Staff"
-    - "Principal"
-    - "Lead"
+    - "Mid-Level"
+    - "Software Engineer II"
+    - "Engineer II"
+
+# Reject explicit 8+ year thresholds without imposing a strict ceiling near the
+# candidate's current experience. Missing descriptions and requirements without
+# a numeric lower bound still pass.
+experience_filter:
+  max_required_years: 7
 
 # These searches run through the agent-driven `/career-ops scan` workflow.
 # The zero-token `npm run scan` command does not execute WebSearch queries.
 search_queries:
   - name: LinkedIn India backend and full-stack
-    query: 'site:linkedin.com/jobs/view ("Senior Software Engineer" OR "Staff Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
+    query: 'site:linkedin.com/jobs/view ("Senior Software Engineer" OR "Software Engineer" OR "Software Development Engineer" OR "SDE" OR "Software Engineer II" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
     enabled: true
 
   - name: Naukri backend and full-stack

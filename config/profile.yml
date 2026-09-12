@@ -42,9 +42,6 @@ target_roles:
     - name: "Platform Engineer"
       level: "Senior"
       fit: "secondary"
-    - name: "Staff Backend Engineer"
-      level: "Staff"
-      fit: "adjacent"
     - name: "Backend Engineer"
       level: "Mid"
       fit: "secondary"
@@ -57,13 +54,10 @@ target_roles:
     - name: "Platform Engineer"
       level: "Mid"
       fit: "secondary"
-    - name: "Staff Backend Engineer"
-      level: "Mid"
-      fit: "secondary"
 
 narrative:
   headline: "Backend-heavy full-stack engineer building reliable Java, Spring Boot, React, TypeScript, and AWS systems"
-  exit_story: "I am looking for a senior backend role with greater ownership of distributed systems, architecture, and performance-critical services."
+  exit_story: "I am looking for a mid-to-senior backend role with greater ownership of distributed systems, architecture, and performance-critical services."
   superpowers:
     - "Backend performance and production service ownership"
     - "REST APIs, distributed systems, and data consistency"

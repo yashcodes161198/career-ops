@@ -11,9 +11,10 @@ const PIPELINE = join(ROOT, 'data', 'pipeline.md');
 const DISCARD = join(ROOT, 'data', 'discard.log');
 const LIVENESS = process.argv[2] || '/tmp/liveness-results.txt';
 
-const US_GEO = /\b(remote[,\s-]*(?:usa|us\b)|united states|san diego|california,\s*united states|remote,\s*canada(?:\s*;\s*remote,\s*united states)?|remote,\s*united kingdom|remote,\s*poland|remote,\s*israel|us-ca-remote|us-remote|us-wa-remote|finland-remote|sweden-remote)\b/i;
+const US_GEO = /\b(remote[,\s-]*(?:usa|us\b)|united states|san diego|california,\s*united states|remote,\s*canada(?:\s*;\s*remote,\s*united states)?|remote,\s*united kingdom|remote,\s*ireland|remote,\s*slovenia|remote,\s*poland|remote,\s*israel|us-ca-remote|us-remote|us-wa-remote|finland-remote|sweden-remote)\b/i;
 const INDIA_OK = /\b(india|hyderabad|bengaluru|bangalore|chennai|mumbai|pune|noida|delhi|kolkata|work from home,\s*india|anywhere in the world)\b/i;
 const FIRMWARE_MISMATCH = /firmware|ufs validation|c and c\+\+/i;
+const UPPER_LEVEL_MISMATCH = /\b(?:staff|principal|manager|director)\b|\b(?:tech(?:nical)?|engineering)\s+lead\b|\blead\s+(?:software|backend|platform|full[- ]?stack)\b|\bsoftware\s+architect\b|\bfront[- ]end\b|\bsde[- ]1\b/i;
 
 function ts() {
   return new Date().toISOString();
@@ -41,6 +42,9 @@ function parseLine(line) {
 function prescreenReason(entry) {
   const loc = entry.location;
   const role = entry.role;
+  if (UPPER_LEVEL_MISMATCH.test(role)) {
+    return 'pre-screen mismatch: Staff/Lead/Principal role exceeds the target experience band';
+  }
   if (loc && US_GEO.test(loc) && !INDIA_OK.test(loc)) {
     return `pre-screen mismatch: location restricts hiring outside India (${loc})`;
   }

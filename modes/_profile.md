@@ -7,10 +7,8 @@
 | **Software Engineer (Mid)** | Backend or full-stack delivery, production code, team collaboration | A solid IC who ships reliable features and grows toward senior ownership |
 | **Backend Engineer (Mid)** | REST APIs, data stores, service integration, debugging | An engineer who implements and maintains backend systems with guidance |
 | **Senior Backend Engineer** | APIs, distributed systems, data stores, reliability, performance | An engineer who owns production services end to end |
-| **Staff Backend Engineer** | Architecture, technical direction, cross-team systems, mentoring | A technical leader who improves systems and engineering decisions across teams |
 | **Senior Platform Engineer** | Developer platforms, cloud infrastructure, observability, delivery systems | An engineer who makes product teams faster and production systems safer |
 | **Senior Full-Stack Engineer** | Backend services, web applications, product delivery, system integration | An engineer who can deliver complete product capabilities without weakening the backend |
-| **Technical Lead** | Architecture, execution, code quality, mentoring, stakeholder communication | A hands-on lead who can guide delivery while contributing production code |
 
 ## Your Adaptive Framing
 
@@ -21,7 +19,6 @@ answers. Do not assume a technology, achievement, leadership scope, or metric.
 |-------------------|-------------------------------------|---------------------|
 | Backend | Service ownership, APIs, data modelling, reliability, latency, scale | `cv.md` and confirmed stories |
 | Platform | Developer experience, cloud systems, CI/CD, observability, operational improvements | `cv.md` and confirmed stories |
-| Staff / Lead | Architecture decisions, cross-team influence, mentoring, incident ownership | `cv.md` and confirmed stories |
 | Full-stack | Complete feature delivery, backend depth, frontend collaboration, customer outcomes | `cv.md` and confirmed stories |
 
 ## Your Exit Narrative
