@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 /**
- * Apply liveness sweep results + location-based pre-screen to data/pipeline.md
+ * Apply liveness results and an internship-focused pre-screen to data/pipeline.md.
+ *
+ * The location rules below are starter defaults for an India-focused search.
+ * Personalize them with the candidate's actual eligibility before use.
  */
 import { readFileSync, writeFileSync, appendFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
@@ -11,9 +14,9 @@ const PIPELINE = join(ROOT, 'data', 'pipeline.md');
 const DISCARD = join(ROOT, 'data', 'discard.log');
 const LIVENESS = process.argv[2] || '/tmp/liveness-results.txt';
 
-const US_GEO = /\b(remote[,\s-]*(?:usa|us\b)|united states|san diego|california,\s*united states|remote,\s*canada(?:\s*;\s*remote,\s*united states)?|remote,\s*united kingdom|remote,\s*poland|remote,\s*israel|us-ca-remote|us-remote|us-wa-remote|finland-remote|sweden-remote)\b/i;
+const OUTSIDE_INDIA_ONLY = /\b(remote[,\s-]*(?:usa|us\b)|united states|san diego|california,\s*united states|remote,\s*canada(?:\s*;\s*remote,\s*united states)?|remote,\s*united kingdom|remote,\s*poland|remote,\s*israel|us-ca-remote|us-remote|us-wa-remote|finland-remote|sweden-remote)\b/i;
 const INDIA_OK = /\b(india|hyderabad|bengaluru|bangalore|chennai|mumbai|pune|noida|delhi|kolkata|work from home,\s*india|anywhere in the world)\b/i;
-const FIRMWARE_MISMATCH = /firmware|ufs validation|c and c\+\+/i;
+const NON_INTERNSHIP_SENIORITY = /\b(senior|staff|principal|lead|manager|director|vice president|vp)\b/i;
 
 function ts() {
   return new Date().toISOString();
@@ -41,14 +44,11 @@ function parseLine(line) {
 function prescreenReason(entry) {
   const loc = entry.location;
   const role = entry.role;
-  if (loc && US_GEO.test(loc) && !INDIA_OK.test(loc)) {
+  if (loc && OUTSIDE_INDIA_ONLY.test(loc) && !INDIA_OK.test(loc)) {
     return `pre-screen mismatch: location restricts hiring outside India (${loc})`;
   }
-  if (FIRMWARE_MISMATCH.test(role)) {
-    return 'pre-screen mismatch: firmware/embedded C++ role outside backend/full-stack target';
-  }
-  if (/senior manager/i.test(role) && !INDIA_OK.test(loc)) {
-    return `pre-screen mismatch: management role with non-India location (${loc})`;
+  if (NON_INTERNSHIP_SENIORITY.test(role)) {
+    return `pre-screen mismatch: non-internship seniority (${role})`;
   }
   return null;
 }

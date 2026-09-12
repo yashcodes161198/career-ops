@@ -1,89 +1,65 @@
-# {Your Name} — Triage Brief
-
-<!-- ============================================================
-     THIS FILE IS YOURS. Copy it to `modes/_brief.md` (doctor.mjs
-     auto-copies it on first run) and fill in the placeholders.
-     It is USER LAYER — never auto-updated by `node update-system.mjs`.
-
-     PURPOSE: Compact context for first-pass triage agents
-     (`modes/triage.md`). It replaces reading the full evaluation
-     stack — cv.md + _shared.md + _profile.md + profile.yml +
-     oferta.md (tens of thousands of tokens) — with a single small
-     read (~1.5–2K tokens). Full context is still used in full eval.
-
-     KEEP IT SHORT. Every line here is read once per role during a
-     batch triage. Include only what changes a go/no-go decision:
-     archetypes, comp floor, location policy, hard disqualifiers,
-     and your strongest proof points. Leave the deep narrative,
-     negotiation scripts, and STAR stories in _profile.md / cv.md.
-     ============================================================ -->
+# Internship candidate triage brief
 
 ## Identity
-{One line: seniority, discipline, years, location/timezone, work-authorization
-constraints. e.g. "Senior Backend Engineer — 10+ yrs. Remote (ET). US citizen,
-no sponsorship."}
 
-## Target Archetypes
-The roles you actually want. Triage scores "archetype fit" against this list.
-A direct hit scores 4–5; an adjacent title scores 3; a mismatch scores 1–2.
+BE Civil with Data Science minor, BITS Pilani, expected graduation July 2027.
+Based in Pilani, Rajasthan, India (Asia/Kolkata). Authorized to work in India; no sponsorship needed for India roles.
 
-| # | Archetype | What they buy (your proof) |
-|---|-----------|----------------------------|
-| 1 | **{Archetype name}** | {the capability/experience that makes you a fit} |
-| 2 | **{Archetype name}** | {...} |
-| 3 | **{Archetype name}** | {...} |
+## Target internships
 
-<!-- Optional: "analog" archetypes — same skills, different titles. List them so
-     triage recognizes them as valid targets instead of scoring them as misses. -->
+| Priority | Archetype | Candidate evidence |
+|---|---|---|
+| 1 | Software Developer / Software Engineering Intern | SWECHA internship; Spring Boot/React log monitor; DSA practice |
+| 2 | Backend Engineering Intern | FastAPI inference service; Spring Boot backends; Docker |
+| 3 | ML / AI Intern | Petals cluster; TinyLlama LoRA fine-tune; Hugging Face agents course; Google ADK |
+| 4 | Data Science / Data Engineering Intern | Data Science minor; SQL/MySQL/MongoDB; movies-dataset and related practice |
+| 5 | Platform / Distributed Systems Intern | Multi-node GPU cluster; Tailscale mesh; heartbeat health monitoring |
 
-## Proof Points (use exact metrics in matching)
-Your strongest, quantified accomplishments. Triage checks how many map to a JD.
-- {Accomplishment — metric, scope, impact}
-- {Accomplishment — metric, scope, impact}
-- {Accomplishment — metric, scope, impact}
+Skip civil engineering roles. Include software developer internships as a primary target (same priority as software engineering intern). Frontend-only or mobile-only roles are optional, not primary.
 
-## Comp Strategy
-| Target | Requirement |
-|--------|-------------|
-| ~{$X}  | {conditions — e.g. fully remote, low intensity} |
-| {$Y}+  | {conditions — e.g. higher intensity acceptable} |
+## Availability
 
-**Hard floor: {$X}. Below that, FAIL regardless of other signals.**
+- Earliest start: rolling / as soon as a matching internship starts (confirm per posting)
+- Latest end: before July 2027 graduation; prefer summer 2026 and other semester breaks
+- Required duration: flexible (typical 8–12+ weeks)
+- During semester: case-by-case; prefer full-time internship windows when possible
 
-## Location Scoring
-How to score the "location" dimension. Adjust to your own policy.
-- Fully remote / async-first → **5.0**
-- Light hybrid (flexible, few days/month) → **4.0–5.0**
-- Regular hybrid or on-site, local (no move) → **{your score / comp condition}**
-- On-site requiring relocation → **{your score / comp condition}**
-- High travel (>25%) → **deduct 0.5–1.0**
+## Strongest proof points
 
-## Hard DQ Criteria — instant FAIL (< 3.0)
-Score ≤ 2.5 immediately and skip detailed analysis if ANY apply. These are the
-hard gaps you cannot bridge — be specific so triage can pattern-match them.
-- {e.g. Active license/clearance you do not hold}
-- {e.g. Primary hands-on skill outside your discipline}
-- {e.g. Stated comp ceiling below your floor}
-- {e.g. Travel above your limit for the role type}
+- SWECHA Telangana SWE intern: distributed GPU cluster (Petals), FastAPI LLM service, TinyLlama LoRA fine-tune
+- Log Monitoring Application: Spring Boot + React + WebSockets; https://github.com/quackapus/LogMonitor
+- 1000+ LeetCode problems; Hugging Face AI Agents Course; Google Agent Development Kit crash course
 
-## Quick Scoring Guide
+## Location policy
 
-Bands are relative to `triage_threshold` (`config/profile.yml → pipeline.triage_threshold`,
-default **3.5**), matching the verdict table in `modes/triage.md` — so a score at or
-above the threshold is PASS, and only the band below it is MARGINAL.
+- Allowed locations: anywhere in India (Bengaluru, Hyderabad, Pune, NCR, Chennai, Mumbai, Pilani, and other cities)
+- Remote eligibility: remote-in-India or remote roles that explicitly accept India-based candidates
+- Relocation: yes, within India
+- Sponsorship needed: no for India; treat non-India sponsorship-required roles as blockers unless the posting explicitly allows India without sponsorship
 
-| Score | Verdict | What it means |
-|-------|---------|---------------|
-| ≥ threshold (default 3.5) | **PASS** | Clears the bar — strong archetype + comp + location, gaps bridgeable |
-| 3.0 – (threshold − 0.1) | **MARGINAL** | Borderline — shown to user as one line |
-| < 3.0 | **FAIL** | Does not clear the bar — filtered |
+## Hard disqualifiers
 
-## Soft Red Flags (−0.5 each, additive)
-Not disqualifiers, but they lower the score.
-- {e.g. A "required" cert you list as a gap}
-- {e.g. A delivery model or domain that needs a framing rewrite}
-- {e.g. Company stage/size you'd rather avoid}
+- Civil engineering or non-tech roles
+- Graduation or enrollment window does not match (must fit a student graduating July 2027)
+- Candidate lacks required work authorization and sponsorship is unavailable
+- Internship dates do not overlap candidate availability after confirmation
+- Posting requires years of professional experience the candidate does not have
+- Role is outside software developer / software engineering, CS, data science, AI/ML, or closely adjacent tech
 
-## Priority Override List — always return PASS regardless of score
-Companies you want surfaced no matter what (specific interest, warm intro, etc.).
-- {Company name — reason}
+## Triage scoring
+
+- 4.0 to 5.0: strong eligibility and direct evidence for most required skills
+- 3.2 to 3.9: eligible with bridgeable technical gaps
+- Below 3.2: hard mismatch or weak evidence
+
+## Priority companies
+
+- First preference after eligibility and role fit: Adobe, Apple, Broadcom,
+  Citrix, Expedia, Google, Indeed, InMobi, Intuit, JPMorgan Chase, LinkedIn,
+  MathWorks, Microsoft, Nutanix, Nvidia, PhonePe, Salesforce, ServiceNow.
+- Next preference: high-paying companies whose WLB is unknown, then
+  mid-paying companies marked good WLB in `modes/_profile.md`.
+- Do not discard a strong technical match solely because the candidate marked
+  the company bad WLB. Rank it below comparable good-WLB and unknown-WLB roles.
+- Give remote-first companies a bonus only when the posting permits work from
+  India.

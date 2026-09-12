@@ -1,11 +1,11 @@
-# India-focused discovery for senior backend, platform, and full-stack roles.
-# Personal company targets can be added under tracked_companies.
+# Internship-focused discovery template for candidates in India.
+# Personalize target disciplines, locations, and companies before the first scan.
 
 scan_history:
-  recheck_after_days: 21
+  recheck_after_days: 14
   dedup_include_location: true
 
-max_posting_age_days: 21
+max_posting_age_days: 30
 
 location_filter:
   always_allow:
@@ -23,9 +23,9 @@ location_filter:
     - "Mumbai"
   allow:
     - "India"
-    - "Remote"
-    - "Worldwide"
-    - "Anywhere"
+    - "Remote India"
+    - "India Remote"
+    - "APAC"
     - "Bengaluru"
     - "Bangalore"
     - "Hyderabad"
@@ -59,100 +59,124 @@ country_eligibility_filter:
     - "apac"
 
 title_filter:
-  skip_tiers: [intern, entry]
+  skip_tiers: []
   positive:
-    - "Senior Software Engineer"
-    - "Staff Software Engineer"
-    - "Lead Software Engineer"
-    - "Principal Software Engineer"
-    - "Backend Engineer"
-    - "Back End Engineer"
-    - "Backend Developer"
-    - "Java Developer"
-    - "Java Backend Developer"
-    - "Java Full Stack Developer"
-    - "Java Full-Stack Developer"
-    - "Spring Boot Developer"
-    - "Platform Engineer"
-    - "Distributed Systems Engineer"
-    - "API Engineer"
-    - "Full Stack Engineer"
-    - "Full-Stack Engineer"
-    - "Fullstack Engineer"
-    - "Full Stack Developer"
-    - "Full-Stack Developer"
-    - "Fullstack Developer"
-    - "Web Engineer"
+    - "Software Engineer Intern"
+    - "Software Engineering Intern"
+    - "SDE Intern"
+    - "Backend Intern"
+    - "Developer Intern"
+    - "Full Stack Intern"
+    - "Platform Engineering Intern"
+    - "Cloud Engineering Intern"
+    - "DevOps Intern"
+    - "Data Engineering Intern"
+    - "Data Science Intern"
+    - "Data Analyst Intern"
+    - "Machine Learning Intern"
+    - "ML Intern"
+    - "AI Intern"
+    - "AI Engineer Intern"
+    - "Research Intern"
+    - "Software Developer Intern"
+    - "Software Developer Internship"
+    - "Software Development Intern"
+    - "Software + Developer + Intern"
+    - "Software + Developer + Internship"
+    - "Application Developer Intern"
+    - "Application + Developer + Intern"
+    - "Full Stack Developer Intern"
+    - "Programmer Intern"
+    - "Java Developer Intern"
+    - "Python Developer Intern"
+    - "Summer Intern"
+    - "Winter Intern"
+    - "Co-op"
+    - "Apprentice"
+    - "Graduate Engineer Trainee"
   negative:
-    - "word:Intern"
-    - "word:Interns"
-    - "Internship"
-    - "Junior"
-    - "Graduate"
-    - "Frontend"
-    - "Front End"
-    - "Mobile"
-    - "Android"
-    - "iOS"
-    - "QA"
-    - "Quality Assurance"
-    - "Support Engineer"
-    - "Salesforce"
-    - "SAP "
-    - "WordPress"
-  seniority_boost:
     - "Senior"
     - "Staff"
     - "Principal"
-    - "Lead"
+    - "Lead Engineer"
+    - "Engineering Manager"
+    - "Director"
+    - "Civil Engineer"
+    - "Civil Engineering"
+    - "Structural Engineer"
+    - "Site Engineer"
+  seniority_boost:
+    - "Intern"
+    - "Internship"
+    - "Co-op"
+    - "Graduate"
+    - "Apprentice"
 
 # These searches run through the agent-driven `/career-ops scan` workflow.
 # The zero-token `npm run scan` command does not execute WebSearch queries.
 search_queries:
-  - name: LinkedIn India backend and full-stack
-    query: 'site:linkedin.com/jobs/view ("Senior Software Engineer" OR "Staff Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
+  - name: LinkedIn India software internships
+    query: 'site:linkedin.com/jobs/view ("Software Engineer Intern" OR "Software Engineering Intern" OR "Software Developer Intern" OR "SDE Intern" OR "Backend Intern" OR "ML Intern" OR "Data Science Intern" OR "AI Intern") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
     enabled: true
 
-  - name: Naukri backend and full-stack
-    query: 'site:naukri.com ("Senior Software Engineer" OR "Backend Engineer" OR "Java Developer" OR "Java Backend Developer" OR "Java Full Stack Developer" OR "Spring Boot Developer") ("Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
+  - name: Naukri India software internships
+    query: 'site:naukri.com ("Software Engineer Intern" OR "Software Developer Intern" OR "SDE Intern" OR "Backend Intern" OR "Data Science Intern" OR "ML Intern" OR "Graduate Engineer Trainee") ("Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
     enabled: true
 
-  - name: Instahyre backend and full-stack
-    query: 'site:instahyre.com ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Remote")'
+  - name: Wellfound India software internships
+    query: 'site:wellfound.com/jobs ("Software Engineer Intern" OR "Software Developer Intern" OR "Backend Intern" OR "Developer Intern" OR "ML Intern" OR "AI Intern") ("India" OR "Remote")'
     enabled: true
 
-  - name: Wellfound India backend and full-stack
-    query: 'site:wellfound.com/jobs ("Senior Software Engineer" OR "Backend Engineer" OR "Platform Engineer" OR "Java Developer" OR "Full Stack Engineer") ("India" OR "Remote")'
+  - name: Greenhouse India software internships
+    query: 'site:job-boards.greenhouse.io ("Software Engineer Intern" OR "Software Engineering Intern" OR "Software Developer Intern" OR "SDE Intern" OR "Backend Intern" OR "Machine Learning Intern" OR "Data Science Intern") ("India" OR "Remote")'
     enabled: true
 
-  - name: Hirist senior engineering
-    query: 'site:hirist.tech ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer")'
+  - name: Ashby India software internships
+    query: 'site:jobs.ashbyhq.com ("Software Engineer Intern" OR "Software Developer Intern" OR "SDE Intern" OR "Backend Intern" OR "ML Intern" OR "AI Intern" OR "Platform Intern") ("India" OR "Remote")'
     enabled: true
 
-  - name: Cutshort senior engineering
-    query: 'site:cutshort.io/job ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer")'
+  - name: Lever India software internships
+    query: 'site:jobs.lever.co ("Software Engineer Intern" OR "Software Developer Intern" OR "SDE Intern" OR "Backend Intern" OR "Data Science Intern" OR "ML Intern") ("India" OR "Remote")'
     enabled: true
 
-  - name: Foundit India senior engineering
-    query: 'site:foundit.in ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer")'
+  - name: General official internship postings
+    query: '("Software Engineering Intern" OR "Software Developer Intern" OR "SDE Intern" OR "Backend Intern" OR "Machine Learning Intern" OR "Data Science Intern" OR "AI Intern") ("India" OR "Bengaluru" OR "Hyderabad") -course -training -civil'
     enabled: true
 
-  # Fishbowl is primarily a professional community, so this query discovers
-  # public hiring and referral posts rather than conventional job-board pages.
-  - name: Fishbowl India engineering hiring and referrals
-    query: 'site:fishbowlapp.com/post ("hiring" OR "referral" OR "refer") ("Senior Software Engineer" OR "Backend Engineer" OR "Java Developer" OR "Platform Engineer" OR "Full Stack Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
+  # Candidate-supplied company cohorts. These queries cover companies whose
+  # official careers site is not exposed through a supported zero-token provider.
+  # Scan mode must verify every result on the official employer site before
+  # adding it to the pipeline.
+  - name: Priority 1 companies — high pay, good WLB
+    query: '("Adobe" OR "Apple" OR "Broadcom" OR "Citrix" OR "Expedia" OR "Google" OR "Indeed" OR "InMobi" OR "Intuit" OR "JPMorgan Chase" OR "LinkedIn" OR "MathWorks" OR "Microsoft" OR "Nutanix" OR "Nvidia" OR "PhonePe" OR "Salesforce" OR "ServiceNow") ("Software Developer Intern" OR "Software Engineer Intern" OR "SDE Intern" OR "Data Science Intern" OR "Machine Learning Intern" OR "AI Intern") ("India" OR "Bengaluru" OR "Hyderabad" OR "Remote") jobs careers -civil'
     enabled: true
 
-  - name: Greenhouse India
-    query: 'site:job-boards.greenhouse.io ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Remote")'
+  - name: Priority 2 companies — high pay, unknown WLB
+    query: '("Airbnb" OR "Alphonso" OR "AppDynamics" OR "Aviso" OR "Bloomreach" OR "Cohesity" OR "Compass" OR "Curefit" OR "Gojek" OR "Grab" OR "Hasura" OR "HealthifyMe" OR "Instabase" OR "MotorQ" OR "Oracle OCI" OR "Palo Alto Networks" OR "Postman" OR "Practo" OR "Quadeye" OR "Qubole" OR "Rubrik" OR "ShareChat" OR "Stripe" OR "Sumo Logic" OR "Swiggy" OR "Target" OR "Udaan" OR "Vizury" OR "Whatfix" OR "WorldQuant") ("Developer Intern" OR "Software Intern" OR "SDE Intern" OR "Data Intern" OR "ML Intern" OR "AI Intern") India jobs careers -civil'
     enabled: true
 
-  - name: Ashby India
-    query: 'site:jobs.ashbyhq.com ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Remote")'
+  - name: Priority 3 companies — high pay, bad WLB
+    query: '("Amazon" OR "Arcesium" OR "Atlassian" OR "CodeNation" OR "Coinbase" OR "D. E. Shaw" OR "Flipkart" OR "Goldman Sachs" OR "Harness" OR "Morgan Stanley" OR "Rippling" OR "Sprinklr" OR "Tower Research" OR "Uber" OR "Zepto" OR "Zomato") ("Developer Intern" OR "Software Intern" OR "SDE Intern" OR "Data Intern" OR "ML Intern" OR "AI Intern") India jobs careers -civil'
     enabled: true
 
-  - name: Lever India
-    query: 'site:jobs.lever.co ("Senior Software Engineer" OR "Backend Engineer" OR "Full Stack Engineer") ("India" OR "Remote")'
+  - name: Priority 4 companies — mid pay, good WLB
+    query: '("ARM" OR "Autodesk" OR "BlackBuck" OR "Cisco" OR "Datadog" OR "Directi" OR "Freshworks" OR "HashedIn" OR "Intel" OR "Mastercard" OR "Mentor Graphics" OR "Oracle" OR "Qualcomm" OR "Red Hat" OR "SAP Labs" OR "Samsung" OR "Slack" OR "Smallcase" OR "Texas Instruments" OR "Visa" OR "Zoho") ("Developer Intern" OR "Software Intern" OR "SDE Intern" OR "Data Intern" OR "ML Intern" OR "AI Intern") India jobs careers -civil'
+    enabled: true
+
+  - name: Priority 5 companies — mid pay, unknown WLB
+    query: '("Box8" OR "Chowbotics" OR "Cloudera" OR "Dunzo" OR "Jio" OR "Juniper Networks" OR "MakeMyTrip" OR "MyGate" OR "PayPal" OR "Razorpay" OR "SanDisk" OR "Twilio" OR "upGrad") ("Developer Intern" OR "Software Intern" OR "SDE Intern" OR "Data Intern" OR "ML Intern" OR "AI Intern") India jobs careers -civil'
+    enabled: true
+
+  - name: Priority 6 companies — mid pay, bad WLB
+    query: '("BigBasket" OR "CRED" OR "Dream11" OR "Disney Hotstar" OR "Ola" OR "OYO" OR "Paytm" OR "Unacademy" OR "Walmart" OR "Wissen" OR "Zeta") ("Developer Intern" OR "Software Intern" OR "SDE Intern" OR "Data Intern" OR "ML Intern" OR "AI Intern") India jobs careers -civil'
+    enabled: true
+
+  - name: Unknown compensation companies
+    query: '("Groupon" OR "Snowflake" OR "Truecaller" OR "Zoom") ("Developer Intern" OR "Software Intern" OR "SDE Intern" OR "Data Intern" OR "ML Intern" OR "AI Intern") India jobs careers -civil'
+    enabled: true
+
+  - name: International sponsor and remote-first companies
+    query: '("Agoda" OR "Booking.com" OR "ByteDance" OR "Databricks" OR "Meta" OR "Spotify" OR "Yelp" OR "Zalando" OR "Akamai" OR "Atlassian" OR "Auth0" OR "BrowserStack" OR "Coinbase" OR "Confluent" OR "GitHub" OR "GitLab" OR "Shopify" OR "Slack" OR "Square" OR "Stack Overflow") ("Developer Intern" OR "Software Intern" OR "SDE Intern" OR "Data Intern" OR "ML Intern" OR "AI Intern") ("India" OR "remote India") jobs careers -civil'
     enabled: true
 
 # Canonical company labels for dedup across ATS naming variants.
@@ -249,6 +273,16 @@ tracked_companies:
     api: https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs
     enabled: true
 
+  - name: Razorpay
+    careers_url: https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited
+    api: https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs
+    enabled: true
+
+  - name: Arcesium
+    careers_url: https://job-boards.greenhouse.io/arcesiumllc
+    api: https://boards-api.greenhouse.io/v1/boards/arcesiumllc/jobs
+    enabled: true
+
   # SmartRecruiters
   - name: ServiceNow
     careers_url: https://careers.smartrecruiters.com/servicenow
@@ -272,6 +306,10 @@ tracked_companies:
 
   - name: SanDisk
     careers_url: https://careers.smartrecruiters.com/sandisk
+    enabled: true
+
+  - name: Visa
+    careers_url: https://careers.smartrecruiters.com/Visa
     enabled: true
 
   # Ashby
@@ -308,6 +346,34 @@ tracked_companies:
     careers_url: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site
     enabled: true
 
+  - name: Expedia
+    careers_url: https://expedia.wd108.myworkdayjobs.com/search
+    enabled: true
+
+  - name: Walmart
+    careers_url: https://walmart.wd504.myworkdayjobs.com/WalmartExternal
+    enabled: true
+
+  - name: Intel
+    careers_url: https://intel.wd1.myworkdayjobs.com/External
+    enabled: true
+
+  - name: Mastercard
+    careers_url: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers
+    enabled: true
+
+  - name: Red Hat
+    careers_url: https://redhat.wd5.myworkdayjobs.com/jobs
+    enabled: true
+
+  - name: Palo Alto Networks
+    careers_url: https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers
+    enabled: true
+
+  - name: Zoom
+    careers_url: https://zoom.wd5.myworkdayjobs.com/Zoom
+    enabled: true
+
   # Oracle Recruiting Cloud — single board; filter OCI roles by title/description tags.
   - name: Oracle
     careers_url: https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/jobs
@@ -329,24 +395,67 @@ tracked_companies:
     careers_url: https://careers-githubinc.icims.com/jobs/
     enabled: true
 
+  - name: Atlassian
+    careers_url: https://globalcareers-atlassian.icims.com/jobs/
+    enabled: true
+
   # Microsoft PCSX (custom Eightfold host)
   - name: Microsoft
     careers_url: https://apply.careers.microsoft.com/careers
     provider: microsoft-pcsx
     domain: microsoft.com
+    microsoft_pcsx:
+      query: "intern"
+      location: "India"
+    enabled: true
+
+  - name: Amazon
+    careers_url: https://www.amazon.jobs/en/search
+    provider: amazon
+    amazon:
+      base_query: "intern"
+      loc_query: "India"
+    enabled: true
+
+  # Eightfold
+  - name: PayPal
+    careers_url: https://paypal.eightfold.ai/careers
+    domain: paypal.com
+    enabled: true
+
+  - name: Qualcomm
+    careers_url: https://qualcomm.eightfold.ai/careers
+    domain: qualcomm.com
+    enabled: true
+
+  - name: Juniper Networks
+    careers_url: https://juniper.eightfold.ai/careers
+    enabled: true
+
+  # Branded career-site providers
+  - name: Intuit
+    careers_url: https://jobs.intuit.com/search-jobs
+    provider: radancy
+    enabled: true
+
+  - name: Cisco
+    careers_url: https://careers.cisco.com
+    provider: phenom
+    enabled: true
+
+  - name: SAP Labs
+    careers_url: https://jobs.sap.com
+    provider: successfactors
+    enabled: true
+
+  - name: ByteDance
+    careers_url: https://jobs.bytedance.com
+    keywords: ["intern", "software", "data", "AI"]
     enabled: true
 
   # discover-ats resolved boards
-  - name: Razorpay
-    careers_url: https://razorpay.pinpointhq.com
-    enabled: true
-
   - name: Shopify
     careers_url: https://shopify.pinpointhq.com
-    enabled: true
-
-  - name: Google
-    careers_url: https://google.recruitee.com
     enabled: true
 
   - name: ARM
@@ -366,32 +475,85 @@ tracked_companies:
     careers_url: https://apply.workable.com/aviso
     enabled: true
 
-  - name: Samsung
-    careers_url: https://samsung.recruitee.com
+  # Additional candidate targets resolved to supported public ATS boards.
+  - name: CodeNation
+    careers_url: https://careers.smartrecruiters.com/codenation
+    enabled: true
+
+  - name: Harness
+    careers_url: https://harness.pinpointhq.com
+    enabled: true
+
+  - name: Rippling
+    careers_url: https://ats.rippling.com/rippling/jobs
+    enabled: true
+
+  - name: CRED
+    careers_url: https://jobs.lever.co/cred
+    enabled: true
+
+  - name: Paytm
+    careers_url: https://jobs.lever.co/paytm
+    enabled: true
+
+  - name: Zeta
+    careers_url: https://jobs.lever.co/zeta
+    enabled: true
+
+  - name: Groupon
+    careers_url: https://job-boards.greenhouse.io/groupon
+    api: https://boards-api.greenhouse.io/v1/boards/groupon/jobs
+    enabled: true
+
+  - name: Snowflake
+    careers_url: https://jobs.ashbyhq.com/snowflake
+    enabled: true
+
+  - name: Truecaller
+    careers_url: https://job-boards.greenhouse.io/truecaller
+    api: https://boards-api.greenhouse.io/v1/boards/truecaller/jobs
+    enabled: true
+
+  - name: Agoda
+    careers_url: https://job-boards.greenhouse.io/agoda
+    api: https://boards-api.greenhouse.io/v1/boards/agoda/jobs
+    enabled: true
+
+  - name: Databricks
+    careers_url: https://job-boards.greenhouse.io/databricks
+    api: https://boards-api.greenhouse.io/v1/boards/databricks/jobs
+    enabled: true
+
+  - name: Spotify
+    careers_url: https://jobs.lever.co/spotify
+    enabled: true
+
+  - name: Yelp
+    careers_url: https://uscareers-yelp.icims.com/jobs/
     enabled: true
 
 # Public multi-employer feeds scanned by `npm run scan`.
 job_boards:
   - name: RemoteOK
     provider: remoteok
-    enabled: true
+    enabled: false
 
   - name: Remotive
     provider: remotive
-    enabled: true
+    enabled: false
 
   - name: Himalayas
     provider: himalayas
-    enabled: true
+    enabled: false
 
   - name: We Work Remotely
     provider: weworkremotely
-    enabled: true
+    enabled: false
 
   - name: Working Nomads
     provider: workingnomads
-    enabled: true
+    enabled: false
 
   - name: Jobicy
     provider: jobicy
-    enabled: true
+    enabled: false

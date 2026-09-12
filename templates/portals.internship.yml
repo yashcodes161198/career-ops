@@ -1,0 +1,366 @@
+# Internship-focused discovery template for candidates in India.
+# Personalize target disciplines, locations, and companies before the first scan.
+
+scan_history:
+  recheck_after_days: 14
+  dedup_include_location: true
+
+max_posting_age_days: 30
+
+location_filter:
+  always_allow:
+    - "India"
+    - "Bengaluru"
+    - "Bangalore"
+    - "Hyderabad"
+    - "Pune"
+    - "Gurugram"
+    - "Gurgaon"
+    - "Noida"
+    - "Delhi"
+    - "NCR"
+    - "Chennai"
+    - "Mumbai"
+  allow:
+    - "India"
+    - "Remote"
+    - "Worldwide"
+    - "Anywhere"
+    - "Bengaluru"
+    - "Bangalore"
+    - "Hyderabad"
+    - "Pune"
+    - "Gurugram"
+    - "Gurgaon"
+    - "Noida"
+    - "Delhi"
+    - "NCR"
+    - "Chennai"
+    - "Mumbai"
+
+country_eligibility_filter:
+  exclusionary:
+    - "must be located in the united states"
+    - "us-based candidates only"
+    - "authorized to work in the us without sponsorship"
+    - "must be authorized to work in the united states"
+    - "remote within the united states"
+    - "must reside in the us"
+    - "uk-based candidates only"
+    - "must reside in the uk"
+    - "eu candidates only"
+    - "must reside in the eu"
+  inclusive:
+    - "worldwide"
+    - "work from anywhere"
+    - "global remote"
+    - "india"
+    - "asia"
+    - "apac"
+
+title_filter:
+  skip_tiers: []
+  positive:
+    - "Software Engineer Intern"
+    - "Software Engineering Intern"
+    - "SDE Intern"
+    - "Backend Intern"
+    - "Developer Intern"
+    - "Platform Engineering Intern"
+    - "Cloud Engineering Intern"
+    - "DevOps Intern"
+    - "Data Engineering Intern"
+    - "Machine Learning Intern"
+    - "Summer Intern"
+    - "Winter Intern"
+    - "Co-op"
+    - "Apprentice"
+    - "Graduate Engineer Trainee"
+  negative:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead Engineer"
+    - "Engineering Manager"
+    - "Director"
+  seniority_boost:
+    - "Intern"
+    - "Internship"
+    - "Co-op"
+    - "Graduate"
+    - "Apprentice"
+
+# These searches run through the agent-driven `/career-ops scan` workflow.
+# The zero-token `npm run scan` command does not execute WebSearch queries.
+search_queries:
+  - name: LinkedIn India software internships
+    query: 'site:linkedin.com/jobs/view ("Software Engineer Intern" OR "Software Engineering Intern" OR "SDE Intern" OR "Backend Intern") ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
+    enabled: true
+
+  - name: Naukri India software internships
+    query: 'site:naukri.com ("Software Engineer Intern" OR "SDE Intern" OR "Backend Intern" OR "Graduate Engineer Trainee") ("Bengaluru" OR "Hyderabad" OR "Pune" OR "Gurugram" OR "Remote")'
+    enabled: true
+
+  - name: Wellfound India software internships
+    query: 'site:wellfound.com/jobs ("Software Engineer Intern" OR "Backend Intern" OR "Developer Intern") ("India" OR "Remote")'
+    enabled: true
+
+  - name: Greenhouse India software internships
+    query: 'site:job-boards.greenhouse.io ("Software Engineer Intern" OR "Software Engineering Intern" OR "SDE Intern" OR "Backend Intern") ("India" OR "Remote")'
+    enabled: true
+
+  - name: Ashby India software internships
+    query: 'site:jobs.ashbyhq.com ("Software Engineer Intern" OR "SDE Intern" OR "Backend Intern" OR "Platform Intern") ("India" OR "Remote")'
+    enabled: true
+
+  - name: Lever India software internships
+    query: 'site:jobs.lever.co ("Software Engineer Intern" OR "SDE Intern" OR "Backend Intern" OR "Developer Intern") ("India" OR "Remote")'
+    enabled: true
+
+  - name: General official internship postings
+    query: '("Software Engineering Intern" OR "SDE Intern" OR "Backend Intern") ("India" OR "Bengaluru" OR "Hyderabad") -course -training'
+    enabled: true
+
+# Canonical company labels for dedup across ATS naming variants.
+company_aliases:
+  Salesforce: [Slack]
+  Cisco: [AppDynamics]
+  Cloud Software Group: [Citrix, TIBCO]
+  Okta: [Auth0]
+  Block: [Square]
+  DoorDash: [Chowbotics]
+  LG Ad Solutions: [Alphonso]
+  Oracle: [Oracle OCI, OCI]
+
+# Direct employer career boards. Parent-brand duplicates above are scanned once.
+tracked_companies:
+  # Greenhouse
+  - name: LinkedIn
+    careers_url: https://job-boards.greenhouse.io/linkedin
+    api: https://boards-api.greenhouse.io/v1/boards/linkedin/jobs
+    enabled: true
+
+  - name: InMobi
+    careers_url: https://job-boards.greenhouse.io/inmobi
+    api: https://boards-api.greenhouse.io/v1/boards/inmobi/jobs
+    enabled: true
+
+  - name: Airbnb
+    careers_url: https://job-boards.greenhouse.io/airbnb
+    api: https://boards-api.greenhouse.io/v1/boards/airbnb/jobs
+    enabled: true
+
+  - name: Bloomreach
+    careers_url: https://job-boards.greenhouse.io/bloomreach
+    api: https://boards-api.greenhouse.io/v1/boards/bloomreach/jobs
+    enabled: true
+
+  - name: Instabase
+    careers_url: https://job-boards.greenhouse.io/instabase
+    api: https://boards-api.greenhouse.io/v1/boards/instabase/jobs
+    enabled: true
+
+  - name: Postman
+    careers_url: https://job-boards.greenhouse.io/postman
+    api: https://boards-api.greenhouse.io/v1/boards/postman/jobs
+    enabled: true
+
+  - name: Rubrik
+    careers_url: https://job-boards.greenhouse.io/rubrik
+    api: https://boards-api.greenhouse.io/v1/boards/rubrik/jobs
+    enabled: true
+
+  - name: Stripe
+    careers_url: https://job-boards.greenhouse.io/stripe
+    api: https://boards-api.greenhouse.io/v1/boards/stripe/jobs
+    enabled: true
+
+  - name: WorldQuant
+    careers_url: https://job-boards.greenhouse.io/worldquant
+    api: https://boards-api.greenhouse.io/v1/boards/worldquant/jobs
+    enabled: true
+
+  - name: Datadog
+    careers_url: https://job-boards.greenhouse.io/datadog
+    api: https://boards-api.greenhouse.io/v1/boards/datadog/jobs
+    enabled: true
+
+  - name: Twilio
+    careers_url: https://job-boards.greenhouse.io/twilio
+    api: https://boards-api.greenhouse.io/v1/boards/twilio/jobs
+    enabled: true
+
+  - name: Coinbase
+    careers_url: https://job-boards.greenhouse.io/coinbase
+    api: https://boards-api.greenhouse.io/v1/boards/coinbase/jobs
+    enabled: true
+
+  - name: GitLab
+    careers_url: https://job-boards.greenhouse.io/gitlab
+    api: https://boards-api.greenhouse.io/v1/boards/gitlab/jobs
+    enabled: true
+
+  - name: Okta
+    careers_url: https://job-boards.greenhouse.io/okta
+    api: https://boards-api.greenhouse.io/v1/boards/okta/jobs
+    enabled: true
+
+  - name: Block
+    careers_url: https://job-boards.greenhouse.io/block
+    api: https://boards-api.greenhouse.io/v1/boards/block/jobs
+    enabled: true
+
+  - name: DoorDash
+    careers_url: https://job-boards.greenhouse.io/doordashusa
+    api: https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs
+    enabled: true
+
+  # SmartRecruiters
+  - name: ServiceNow
+    careers_url: https://careers.smartrecruiters.com/servicenow
+    enabled: true
+
+  - name: Grab
+    careers_url: https://careers.smartrecruiters.com/grab
+    enabled: true
+
+  - name: Swiggy
+    careers_url: https://careers.smartrecruiters.com/swiggy
+    enabled: true
+
+  - name: Whatfix
+    careers_url: https://careers.smartrecruiters.com/whatfix
+    enabled: true
+
+  - name: Freshworks
+    careers_url: https://careers.smartrecruiters.com/freshworks
+    enabled: true
+
+  - name: SanDisk
+    careers_url: https://careers.smartrecruiters.com/sandisk
+    enabled: true
+
+  # Ashby
+  - name: Confluent
+    careers_url: https://jobs.ashbyhq.com/confluent
+    enabled: true
+
+  - name: LG Ad Solutions
+    careers_url: https://jobs.ashbyhq.com/lgads
+    enabled: true
+
+  # Workday
+  - name: Adobe
+    careers_url: https://adobe.wd5.myworkdayjobs.com/external_experienced
+    enabled: true
+
+  - name: Broadcom
+    careers_url: https://broadcom.wd1.myworkdayjobs.com/External_Career
+    enabled: true
+
+  - name: BrowserStack
+    careers_url: https://browserstack.wd3.myworkdayjobs.com/External
+    enabled: true
+
+  - name: Cloud Software Group
+    careers_url: https://tibco.wd5.myworkdayjobs.com/Cloud_Software_Group
+    enabled: true
+
+  - name: Nvidia
+    careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+    enabled: true
+
+  - name: Salesforce
+    careers_url: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site
+    enabled: true
+
+  # Oracle Recruiting Cloud — single board; filter OCI roles by title/description tags.
+  - name: Oracle
+    careers_url: https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/jobs
+    enabled: true
+
+  - name: JPMorgan Chase
+    careers_url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs
+    enabled: true
+
+  # Jobvite
+  - name: Nutanix
+    careers_url: https://jobs.jobvite.com/nutanix
+    provider: jobvite
+    company_eid: qKr9VfwZ
+    enabled: true
+
+  # iCIMS
+  - name: GitHub
+    careers_url: https://careers-githubinc.icims.com/jobs/
+    enabled: true
+
+  # Microsoft PCSX (custom Eightfold host)
+  - name: Microsoft
+    careers_url: https://apply.careers.microsoft.com/careers
+    provider: microsoft-pcsx
+    domain: microsoft.com
+    microsoft_pcsx:
+      query: "intern"
+      location: "India"
+    enabled: true
+
+  # discover-ats resolved boards
+  - name: Razorpay
+    careers_url: https://razorpay.pinpointhq.com
+    enabled: true
+
+  - name: Shopify
+    careers_url: https://shopify.pinpointhq.com
+    enabled: true
+
+  - name: Google
+    careers_url: https://google.recruitee.com
+    enabled: true
+
+  - name: ARM
+    careers_url: https://arm.pinpointhq.com
+    enabled: true
+
+  - name: Sumo Logic
+    careers_url: https://job-boards.greenhouse.io/sumologic
+    api: https://boards-api.greenhouse.io/v1/boards/sumologic/jobs
+    enabled: true
+
+  - name: Box8
+    careers_url: https://box8.recruitee.com
+    enabled: true
+
+  - name: Aviso
+    careers_url: https://apply.workable.com/aviso
+    enabled: true
+
+  - name: Samsung
+    careers_url: https://samsung.recruitee.com
+    enabled: true
+
+# Public multi-employer feeds scanned by `npm run scan`.
+job_boards:
+  - name: RemoteOK
+    provider: remoteok
+    enabled: true
+
+  - name: Remotive
+    provider: remotive
+    enabled: true
+
+  - name: Himalayas
+    provider: himalayas
+    enabled: true
+
+  - name: We Work Remotely
+    provider: weworkremotely
+    enabled: true
+
+  - name: Working Nomads
+    provider: workingnomads
+    enabled: true
+
+  - name: Jobicy
+    provider: jobicy
+    enabled: true

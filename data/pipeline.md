@@ -1,151 +1,20 @@
-# Pipeline — Pending URLs
-
-Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
+# Job Pipeline
 
 ## Pending
 
+- [ ] https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537 | Rubrik | Software Engineer (CPD) - Winter Intern | Bangalore | posted: 2026-09-06
+- [ ] https://www.rubrik.com/company/careers/departments/job.8166523?gh_jid=8166523 | Rubrik | Software Engineer - Winter Intern | Bangalore | posted: 2026-09-06
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556911730 | Microsoft | Software Engineering INTERN | India, Multiple Locations, Multiple Locations · IN | posted: 2026-08-28
+- [ ] https://stripe.com/jobs/search?gh_jid=8131339 | Stripe | Operations Associate, Apprenticeship | Bengaluru | posted: 2026-09-01
+- [ ] https://stripe.com/jobs/search?gh_jid=8031833 | Stripe | Software Engineer, Intern | Bengaluru | source: web-discovery
+- [ ] https://www.amazon.jobs/en/jobs/10499554/software-development-engineer-intern-jan-2027-6-month-amazon-university-talent-acquisition | Amazon | Software Development Engineer Intern – Jan 2027 (6 month) | Bengaluru, India | source: web-discovery | tier: P3 | grad: 2027
+- [ ] https://jobs.ashbyhq.com/interview-kickstart/bf2a4802-4180-440b-b5bf-5f8058e69846 | Interview Kickstart | Intern - Software Development Engineer (Backend) | Remote - India | posted: 2026-09-02 | source: web-discovery
+- [ ] https://jobs.ashbyhq.com/certa/b4026cb6-807d-4046-a5d7-605ee5fa5595 | Certa | Backend Engineer - Internship | India (remote) | posted: 2026-09-03 | source: web-discovery
+- [ ] https://jobs.ashbyhq.com/ema/e0511c0c-998f-4079-b62c-d2f164bf2c86 | Ema | AI/Data Resident | India - remote | posted: 2026-08-24 | source: web-discovery | note: JD asks CS degree + 8.0+ GPA
+- [ ] https://job-boards.greenhouse.io/alphagrepsecurities/jobs/8769725002 | AlphaGrep | Intern Hiring 2027 | Bengaluru | posted: 2026-09-01 | source: web-discovery | quant trading
+- [ ] https://jobs.lever.co/epifi/08c743e8-2b29-4f78-827e-5bd90476ed86 | Epifi | AI Engg Intern | Bangalore | source: web-discovery
+- [ ] https://jobs.ashbyhq.com/atlys/1a34deb8-3d14-4b7b-b1eb-cd302ce97223 | Atlys | AI Intern | Delhi HQ | posted: 2026-08-12 | source: web-discovery
+
 ## Processed
-- [x] #006 | https://weworkremotely.com/remote-jobs/grafana-labs-backend-engineer-platform-stacks-ireland-remote | Grafana Labs | Backend Engineer - Platform - Stacks / Ireland / Remote | 4.8/5 | PDF ❌
-- [x] #007 | https://weworkremotely.com/remote-jobs/circleci-senior-software-engineer | CircleCI | Senior Software Engineer | 4.7/5 | PDF ❌
-- [x] #008 | https://in.linkedin.com/jobs/view/staff-software-engineer-backend-at-harvey-4417892911 | Harvey | Staff Software Engineer, Backend | 4.8/5 | PDF ❌
-- [x] #009 | https://in.linkedin.com/jobs/view/practo-senior-software-engineer-backend-development-at-practo-4429727987 | Practo | Practo - Senior Software Engineer - Backend Development | 4.8/5 | PDF ❌
-- [x] #010 | https://www.instahyre.com/job-436250-senior-software-engineer-at-postman-bangalore | Postman | Senior Software Engineer | 4.8/5 | PDF ❌
-- [x] #011 | https://www.instahyre.com/job-434018-senior-software-engineer-backend-at-american-express-bangalore | American Express | Senior Software Engineer - Backend | 4.8/5 | PDF ❌
-- [x] #012 | https://www.instahyre.com/job-420047-senior-backend-engineer-at-zluri-bangalore | Zluri | Senior Backend Engineer | 4.8/5 | PDF ❌
-- [x] #013 | https://wellfound.com/jobs/4356024-senior-platform-engineer-java-data-infrastructure | Intempt Technologies | Senior Platform Engineer (Java) - Data Infrastructure | 4.8/5 | PDF ❌
-- [x] #014 | https://wellfound.com/jobs/4079188-senior-java-developer-5-yoe | Innovatily | Senior Java Developer (5+ YOE) | 4.8/5 | PDF ❌
-- [x] #015 | https://wellfound.com/jobs/4461852-java-developer-clone | Steinn Labs | Senior Java Developer (Architect) | 4.8/5 | PDF ❌
-- [x] #016 | https://www.hirist.tech/j/senior-backend-engineer-python-technologies-1628292 | Unspecified employer | Senior Backend Engineer - Python Technologies | 4.8/5 | PDF ❌
-- [x] #017 | https://www.hirist.tech/j/senior-software-engineer-full-stack-1636842 | Ryan | Senior Software Engineer - Full Stack | 4.8/5 | PDF ❌
-- [x] #018 | https://cutshort.io/job/Senior-Software-Engineer-Full-Stack-Pune-Oddr-Inc-aRDz87il | Oddr | Senior Software Engineer - Full Stack | 4.8/5 | PDF ❌
-- [x] #019 | https://cutshort.io/job/Senior-Software-Engineer-Full-Stack-Capability-Delhi-Sobhri-Technologies-wPZUhh0m | Sobhri Technologies | Senior Software Engineer (Full Stack Capability) | 4.8/5 | PDF ❌
-- [x] #020 | https://cutshort.io/job/Senior-Backend-Engineer-Product-Team-Delhi-Noida-Chennai-Bengaluru-Bangalore-J-F-2nM1eda2 | J&F | Senior Backend Engineer - Product Team | 4.8/5 | PDF ❌
-- [x] #021 | https://cutshort.io/job/Senior-Software-Engineer-Mumbai-Clockwork-xf5bdWy1 | Clockwork | Senior Software Engineer | 4.8/5 | PDF ❌
-- [x] #022 | https://job-boards.greenhouse.io/xohealthinc/jobs/5195145007 | XO Health | Senior Full Stack Engineer | 4.8/5 | PDF ❌
-- [x] #023 | https://job-boards.greenhouse.io/startree/jobs/6142775004 | StarTree | Senior Software Engineer, Data Platform | 4.8/5 | PDF ❌
-- [x] #024 | https://job-boards.greenhouse.io/sezzle/jobs/7775223003 | Sezzle | Senior Software Engineer (India) | 4.8/5 | PDF ❌
-- [x] #025 | https://jobs.lever.co/sonatype/dd79f392-5735-4690-96b6-e27ac1946dfd | Sonatype | Senior Full Stack Software Engineer | 4.8/5 | PDF ❌
-- [x] #026 | https://jobs.lever.co/kobie/bf718a41-fed5-4b73-ab05-fc5e2969102a | Kobie Marketing | Senior Software Engineer | 4.8/5 | PDF ❌
-- [x] #027 | https://jobs.lever.co/ttecdigital/8590ce84-2ecd-429f-955b-c470cdbc7b81 | TTEC Digital | Senior Software Engineer (Platform - Backend / AI/ML / Integrations) | 4.8/5 | PDF ❌
-- [x] #028 | https://careers.airbnb.com/positions/8154477?gh_jid=8154477 | Airbnb | Senior Software Engineer(AI/ML), Trust | 4.8/5 | PDF ❌
-- [x] #-- | https://careers.airbnb.com/positions/8138002?gh_jid=8138002 | Airbnb | Senior Software Engineer, Payments Platform | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, USA))
-- [x] #-- | https://careers.airbnb.com/positions/8130787?gh_jid=8130787 | Airbnb | Staff Software Engineer, Payments Compliance | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - US))
-- [x] #029 | https://www.okta.com/company/careers/opportunity/8127234?gh_jid=8127234 | Okta | Principal Software Engineer - PAM | 4.8/5 | PDF ❌
-- [x] #030 | https://www.okta.com/company/careers/opportunity/8146810?gh_jid=8146810 | Okta | Senior Software Engineer, Identity Administration | 4.8/5 | PDF ❌
-- [x] #031 | https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071 | Okta | Staff Software Engineer, Identity Administration | 4.8/5 | PDF ❌
-- [x] #032 | https://www.okta.com/company/careers/opportunity/7831189?gh_jid=7831189 | Okta | Staff Software Engineer, Identity Administration (Full Stack) | 4.8/5 | PDF ❌
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8698314002 | GitLab | Backend Engineer, AI Engineering: Duo Chat | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Canada; Remote, United States))
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8698330002 | GitLab | Fullstack Engineer (TypeScript), AI Engineering: Duo Client SDK | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Canada; Remote, United States))
-- [x] #033 | https://job-boards.greenhouse.io/gitlab/jobs/8736877002 | GitLab | Intermediate Backend Engineer | 4.8/5 | PDF ❌
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8773006002 | GitLab | Intermediate Backend Engineer, AMER | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Canada; Remote, United States))
-- [x] #034 | https://job-boards.greenhouse.io/gitlab/jobs/8722304002 | GitLab | Intermediate Backend Engineer - Database Change Management | 4.8/5 | PDF ❌
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8778279002 | GitLab | Intermediate Backend Engineer, EMEA | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, United Kingdom))
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8775415002 | GitLab | Intermediate Backend Engineer, EMEA | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Poland))
-- [x] #035 | https://job-boards.greenhouse.io/gitlab/jobs/8775507002 | GitLab | Intermediate Backend Engineer, India | 4.8/5 | PDF ❌
-- [x] #036 | https://job-boards.greenhouse.io/gitlab/jobs/8736862002 | GitLab | Senior Backend Engineer | 4.8/5 | PDF ❌
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8729451002 | GitLab | Senior Backend Engineer (Go), Tenant Scale: Gitaly | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Canada; Remote, United Kingdom))
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8749951002 | GitLab | Senior Backend Engineer (Go), Tenant Scale: Gitaly | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Poland))
-- [x] #037 | https://job-boards.greenhouse.io/gitlab/jobs/8615312002 | GitLab | Senior Backend Engineer - Platform Integrations (Monetization) | 4.8/5 | PDF ❌
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8749946002 | GitLab | Senior Backend Engineer, Poland | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Poland))
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8704363002 | GitLab | Senior Backend Engineer (Python), Agent Developer: Flow Components | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Canada))
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8759577002 | GitLab | Senior Backend Engineer (Ruby), AI Catalog: External Agents | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, United Kingdom))
-- [x] #038 | https://job-boards.greenhouse.io/gitlab/jobs/8695815002 | GitLab | Senior Backend Engineer (Ruby on Rails), Plan: Planning Views | 4.8/5 | PDF ❌
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8749950002 | GitLab | Senior Backend Engineer (Ruby), Plan: Spec-Driven Development | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Poland))
-- [x] #039 | https://job-boards.greenhouse.io/gitlab/jobs/8721124002 | GitLab | Senior Software Engineer | 4.8/5 | PDF ❌
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8738225002 | GitLab | Senior Software Engineer (Ruby), Security Platform: Authorization | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States))
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8749952002 | GitLab | Senior Software Engineer (Typescript), AI Clients: Duo CLI | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Poland))
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8773381002 | GitLab | Staff Backend Engineer, AMER | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Canada; Remote, United States))
-- [x] #040 | https://job-boards.greenhouse.io/gitlab/jobs/8716271002 | GitLab | Staff Backend Engineer - Database Change Management | 4.8/5 | PDF ❌
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8775039002 | GitLab | Staff Backend Engineer, EMEA | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, United Kingdom))
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8777342002 | GitLab | Staff Backend Engineer, EMEA | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Poland))
-- [x] #041 | https://job-boards.greenhouse.io/gitlab/jobs/8775136002 | GitLab | Staff Backend Engineer, India | 4.8/5 | PDF ❌
-- [x] #-- | https://job-boards.greenhouse.io/gitlab/jobs/8739391002 | GitLab | Staff Fullstack Engineer (Ruby/Vue.js) Monetization Engineering: Purchase | skipped (pre-screen mismatch: location restricts hiring outside India (Remote, Canada; Remote, United States))
-- [x] #042 | https://job-boards.greenhouse.io/gitlab/jobs/8632446002 | GitLab | Staff Software Engineer | 4.8/5 | PDF ❌
-- [x] #-- | https://www.coinbase.com/careers/positions/8174949?gh_jid=8174949 | Coinbase | Senior Software Engineer, Agent Verification | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - USA))
-- [x] #-- | https://www.coinbase.com/careers/positions/8146039?gh_jid=8146039 | Coinbase | Senior Software Engineer (Platform - Access & Authorization) | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - USA))
-- [x] #-- | https://www.coinbase.com/careers/positions/8103569?gh_jid=8103569 | Coinbase | Senior Software Engineer, Simple Trade Experience | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - USA))
-- [x] #043 | https://www.coinbase.com/careers/positions/8162240?gh_jid=8162240 | Coinbase | Senior Staff Software Engineer, Finhub | 4.8/5 | PDF ❌
-- [x] #-- | https://www.coinbase.com/careers/positions/8162237?gh_jid=8162237 | Coinbase | Senior Staff Software Engineer, Finhub | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - USA))
-- [x] #-- | https://www.coinbase.com/careers/positions/8179210?gh_jid=8179210 | Coinbase | Senior Staff Software Engineer, Institutional Exchange | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - USA))
-- [x] #-- | https://www.coinbase.com/careers/positions/8154983?gh_jid=8154983 | Coinbase | Staff Software Engineer, Backend - Platform (Core AI Automation) | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - USA))
-- [x] #-- | https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557 | Coinbase | Staff Software Engineer, Compute Platform (Routing) | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - USA))
-- [x] #-- | https://www.coinbase.com/careers/positions/8170956?gh_jid=8170956 | Coinbase | Staff Software Engineer, Developer Infrastructure | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - USA))
-- [x] #-- | https://www.coinbase.com/careers/positions/8166218?gh_jid=8166218 | Coinbase | Staff Software Engineer, Enterprise Apps | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - USA))
-- [x] #044 | https://www.coinbase.com/careers/positions/8167571?gh_jid=8167571 | Coinbase | Staff Software Engineer, Security Platform | 4.8/5 | PDF ❌
-- [x] #-- | https://www.coinbase.com/careers/positions/8177619?gh_jid=8177619 | Coinbase | Threat Intelligence Platform Engineer | skipped (pre-screen mismatch: location restricts hiring outside India (Remote - USA))
-- [x] #045 | https://jobs.smartrecruiters.com/freshworks/744000146933519-senior-software-engineer-full-stack | Freshworks | Senior Software Engineer - Full Stack | 4.8/5 | PDF ❌
-- [x] #046 | https://jobs.smartrecruiters.com/freshworks/744000145418549-lead-software-engineer-machine-learning | Freshworks | Lead Software Engineer - Machine Learning | 4.8/5 | PDF ❌
-- [x] #047 | https://jobs.smartrecruiters.com/freshworks/744000144463069-lead-software-engineer-systems | Freshworks | Lead Software Engineer - Systems | 4.8/5 | PDF ❌
-- [x] #048 | https://jobs.smartrecruiters.com/freshworks/744000144452829-lead-software-engineer-machine-learning | Freshworks | Lead Software Engineer - Machine Learning | 4.8/5 | PDF ❌
-- [x] #049 | https://jobs.smartrecruiters.com/freshworks/744000143743519-lead-data-platform-engineering | Freshworks | Lead - Data Platform Engineering | 4.8/5 | PDF ❌
-- [x] #050 | https://jobs.smartrecruiters.com/freshworks/744000143102264-specialist-data-platform-engineering | Freshworks | Specialist - Data Platform Engineering | 4.8/5 | PDF ❌
-- [x] #051 | https://jobs.smartrecruiters.com/freshworks/744000137424679-lead-software-engineer-full-stack | Freshworks | Lead Software Engineer - Full Stack | 4.8/5 | PDF ❌
-- [x] #052 | https://jobs.smartrecruiters.com/freshworks/744000135652534-lead-software-engineer-full-stack | Freshworks | Lead Software Engineer - Full Stack | 4.8/5 | PDF ❌
-- [x] #053 | https://jobs.smartrecruiters.com/freshworks/744000134600339-senior-staff-software-engineer-full-stack | Freshworks | Senior Staff Software Engineer - Full Stack | 4.8/5 | PDF ❌
-- [x] #054 | https://jobs.smartrecruiters.com/sandisk/744000143035295-senior-software-engineer-software-development-engineering-apps-5-9-years-jira | SanDisk | Senior Software Engineer , Software Development Engineering (Apps) ( 5-9 years) - Jira | 4.8/5 | PDF ❌
-- [x] #-- | https://jobs.smartrecruiters.com/sandisk/744000137948229-staff-software-engineer-development-firmware-ufs-validation-with-c-and-c-experience-9-to-14-years-only | SanDisk | Staff Software Engineer - Development ( Firmware, UFS validation with C and C++ experience) 9 to 14 years Only | skipped (pre-screen mismatch: firmware/embedded C++ role outside backend/full-stack target)
-- [x] #055 | https://www.rubrik.com/company/careers/departments/job.7956920?gh_jid=7956920 | Rubrik | Senior Software Engineer - CPD (IAM) | 4.8/5 | PDF ❌
-- [x] #-- | https://jobs.smartrecruiters.com/servicenow/744000147592179-senior-manager-data-platform-engineering-kubernetes-distributed-systems | ServiceNow | Senior Manager, Data Platform Engineering - Kubernetes - Distributed Systems | skipped (pre-screen mismatch: location restricts hiring outside India (San Diego, CALIFORNIA, United States, Remote))
-- [x] #056 | https://jobs.smartrecruiters.com/servicenow/744000147484659-staff-software-engineer-fullstack | ServiceNow | Staff Software Engineer- Fullstack | 4.8/5 | PDF ❌
-- [x] #057 | https://jobs.smartrecruiters.com/servicenow/744000146789639-staff-software-engineer-infrastructure | ServiceNow | Staff Software Engineer - Infrastructure | 4.8/5 | PDF ❌
-- [x] #058 | https://jobs.smartrecruiters.com/servicenow/744000146518464-staff-software-engineer | ServiceNow | Staff Software Engineer | 4.8/5 | PDF ❌
-- [x] #059 | https://jobs.smartrecruiters.com/servicenow/744000144064119-sr-staff-software-engineer | ServiceNow | Sr Staff Software Engineer | 4.8/5 | PDF ❌
-- [x] #-- | https://jobs.smartrecruiters.com/servicenow/744000142983469-senior-staff-software-engineer | ServiceNow | Senior Staff Software Engineer | skipped (pre-screen mismatch: location restricts hiring outside India (San Diego, California, United States, Remote))
-- [x] #060 | https://jobs.smartrecruiters.com/servicenow/744000142555049-staff-software-engineer-moveworks | ServiceNow | Staff Software Engineer - Moveworks | 4.8/5 | PDF ❌
-- [x] #061 | https://jobs.smartrecruiters.com/servicenow/744000137360949-sr-staff-software-engineer-moveworks | ServiceNow | Sr Staff Software Engineer - Moveworks | 4.8/5 | PDF ❌
-- [x] #062 | https://broadcom.wd1.myworkdayjobs.com/External_Career/job/IND-Bangalore-Electronic-City---S1/Staff-Software-Engineer_R025888 | Broadcom | Staff Software Engineer | 4.8/5 | PDF ❌
-- [x] #063 | https://broadcom.wd1.myworkdayjobs.com/External_Career/job/IND-Hyderabad-115-IT-Park-Area/Staff-Software-Engineer_R026990 | Broadcom | Staff Software Engineer | 4.8/5 | PDF ❌
-- [x] #064 | https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Noida/Senior-DevOps-Platform-Engineer_R170207-1 | Adobe | Senior DevOps Platform Engineer | 4.8/5 | PDF ❌
-- [x] #065 | https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Associate-Program-Architect--Full-Stack-Developer---AI-Native-Engineering-_JR358410 | Salesforce | Associate Program Architect (Full-Stack Developer — AI-Native Engineering) | 4.8/5 | PDF ❌
-- [x] #066 | https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS--Full-Stack-_JR339748 | Salesforce | Software Engineering MTS (Full Stack) - AI Generalist (Demo Tools & Platform Engineering) | 4.8/5 | PDF ❌
-- [x] #067 | https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Principal-Software-Engineer---PMTS---Bangalore_JR282414 | Salesforce | Principal Software Engineer / PMTS - Bangalore | 4.8/5 | PDF ❌
-- [x] #068 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765117 | JPMorgan Chase | Senior Lead Software Engineer Java Spring boor Gen AI | 4.8/5 | PDF ❌
-- [x] #069 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776144 | JPMorgan Chase | Lead Software Engineer - Python | 4.8/5 | PDF ❌
-- [x] #070 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776310 | JPMorgan Chase | Lead Software Engineer | 4.8/5 | PDF ❌
-- [x] #071 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210782437 | JPMorgan Chase | Lead Software Engineer - Terraform, Python, Kubernetes | 4.8/5 | PDF ❌
-- [x] #072 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210783501 | JPMorgan Chase | Lead Software Engineer - Python, Trading | 4.8/5 | PDF ❌
-- [x] #073 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788189 | JPMorgan Chase | Lead Software Engineer- Linux | 4.8/5 | PDF ❌
-- [x] #074 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210748542 | JPMorgan Chase | Lead Software Engineer - Java Full Stack | 4.8/5 | PDF ❌
-- [x] #075 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780917 | JPMorgan Chase | Principal Software Engineer -Forward Deployment Engineer - Databricks | 4.8/5 | PDF ❌
-- [x] #076 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210787061 | JPMorgan Chase | Lead Software Engineer Java Full Stack Developer | 4.8/5 | PDF ❌
-- [x] #077 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210718313 | JPMorgan Chase | Senior Lead Software Engineer - Java, Kafka, Cloud | 4.8/5 | PDF ❌
-- [x] #078 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210733928 | JPMorgan Chase | Senior Lead Software Engineer - Python Backend Developer | 4.8/5 | PDF ❌
-- [x] #079 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210767959 | JPMorgan Chase | Lead Software Engineer | 4.8/5 | PDF ❌
-- [x] #080 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210754985 | JPMorgan Chase | Lead Software Engineer | 4.8/5 | PDF ❌
-- [x] #081 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210756701 | JPMorgan Chase | Lead Software Engineer - Python, SQL | 4.8/5 | PDF ❌
-- [x] #082 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765088 | JPMorgan Chase | Lead Software Engineer-Java, Spring Boot | 4.8/5 | PDF ❌
-- [x] #083 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210778589 | JPMorgan Chase | Lead Software Engineer - Java, Spring boot, Microservices , Real time application | 4.8/5 | PDF ❌
-- [x] #084 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210783004 | JPMorgan Chase | Software Engineer III - Platform Engineer | 4.8/5 | PDF ❌
-- [x] #085 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210715495 | JPMorgan Chase | Lead Software Engineer- Back-end Engineer - Chase UK | 4.8/5 | PDF ❌
-- [x] #086 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781875 | JPMorgan Chase | Sr Lead Software Engineer - Agentic AI Solutions | 4.8/5 | PDF ❌
-- [x] #087 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210783259 | JPMorgan Chase | Senior Lead Software Engineer - Java/Python fullstack, Public cloud | 4.8/5 | PDF ❌
-- [x] #088 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210783644 | JPMorgan Chase | Lead Software Engineer - Java/Python Backend | 4.8/5 | PDF ❌
-- [x] #089 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210785108 | JPMorgan Chase | Lead Software Engineer - Python, AWS, BigData | 4.8/5 | PDF ❌
-- [x] #090 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210767057 | JPMorgan Chase | Lead Software Engineer - Lead Data Architect | 4.8/5 | PDF ❌
-- [x] #091 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210772782 | JPMorgan Chase | Lead Software Engineer - Cloud Platform Engineer | 4.8/5 | PDF ❌
-- [x] #092 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210772817 | JPMorgan Chase | Lead Software Engineer - FinOps, Cloud Platform | 4.8/5 | PDF ❌
-- [x] #093 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781017 | JPMorgan Chase | Lead Software Engineer - (SRE principles , AI tools, AWS) | 4.8/5 | PDF ❌
-- [x] #094 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210760455 | JPMorgan Chase | Sr Lead Software Engineer - Java | 4.8/5 | PDF ❌
-- [x] #095 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210779625 | JPMorgan Chase | Senior Lead Software Engineer - Java & AI | 4.8/5 | PDF ❌
-- [x] #096 | https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210777136 | JPMorgan Chase | Lead Software Engineer Java | 4.8/5 | PDF ❌
-- [x] #097 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---DRIVE-SW_JR2020891 | Nvidia | Senior Software Engineer - DRIVE SW | 4.8/5 | PDF ❌
-- [x] #098 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Production-Engineer---DGX-Cloud_JR2018101 | Nvidia | Senior Software Engineer - DGX Cloud Production Engineering | 4.8/5 | PDF ❌
-- [x] #099 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-Software-Engineer--Networking-DGX-Cloud_JR2022482 | Nvidia | Senior Software Engineer, Networking DGX Cloud | 4.8/5 | PDF ❌
-- [x] #100 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552 | Nvidia | Senior Software Engineer, Core Infrastructure Services - DGX Cloud | 4.8/5 | PDF ❌
-- [x] #101 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--Linux-Platform_JR2021517 | Nvidia | Senior Software Engineer, Linux Platform | 4.8/5 | PDF ❌
-- [x] #102 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--Open-Harness-Engineering_JR2024798 | Nvidia | Senior Software Engineer, Open Harness Engineering | 4.8/5 | PDF ❌
-- [x] #103 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1 | Nvidia | Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure | 3.6/5 | PDF ❌
-- [x] #104 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Platform-Engineer--Network-Infrastructure_JR2021500 | Nvidia | Senior Platform Engineer, Network Infrastructure | 4.8/5 | PDF ❌
-- [x] #105 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---Applied-Research-in-Robotics_JR2021411 | Nvidia | Senior Software Engineer - Applied Research in Robotics | 4.8/5 | PDF ❌
-- [x] #106 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer--Fabric-Networking---GPU_JR2020447 | Nvidia | Senior Software Engineer, Fabric Networking - GPU | 3.7/5 | PDF ❌
-- [x] #107 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer--Cloud-Platform_JR2010936 | Nvidia | Senior Software Engineer, Cloud Platform | 4.8/5 | PDF ❌
-- [x] #108 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Finland-Remote/Senior-Software-Engineer-Aerial-Platform_JR2011028 | Nvidia | Senior Software Engineer Aerial Platform | 4.8/5 | PDF ❌
-- [x] #109 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer---Accelerated-Quantum-Chemistry-and-cuEST_JR2019563 | Nvidia | Senior Software Engineer – Accelerated Quantum Chemistry and cuEST | 4.8/5 | PDF ❌
-- [x] #110 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer--DriveAV---Autonomous-Vehicles_JR2016077 | Nvidia | Senior Software Engineer, DriveAV - Autonomous Vehicles | 4.8/5 | PDF ❌
-- [x] #111 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Sweden-Remote/Senior-Software-Engineer-Aerial-Platform_JR2011026 | Nvidia | Senior Software Engineer Aerial Platform | 4.8/5 | PDF ❌
-- [x] ~~https://www.hirist.tech/j/senior-software-engineer-backend-development-1655506 | Zamp | Senior Software Engineer - Backend Development~~ — posting expired (liveness sweep)
-- [x] #005 | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer_JR2024294 | Nvidia | Senior Software Engineer | 3.2/5 | PDF ❌
-- [x] #004 | https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Sr-Computer-Scientist--Data-Platform-Engineer-_R166812 | Adobe | Sr. Computer Scientist (Data Platform Engineer) | 3.9/5 | PDF ❌
-- [x] #003 | https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Infrastructure-Platform-Engineering--SMTS--Software-Engineering-_JR356752 | Salesforce | Infrastructure Platform Engineering (SMTS) | 3.8/5 | PDF ❌
-- [x] #002 | https://www.instahyre.com/job-440195-senior-backend-engineer-java-at-healimpilo-work-from-home | Healimpilo | Senior Backend Engineer - Java | 4.3/5 | PDF ❌
-- [x] #001 | https://jobs.lever.co/everbridge/ff6eacff-741a-4f60-aff4-a45e89b003a9 | Everbridge | Senior Software Engineer - Backend & AI-Enabled | 4.5/5 | PDF ❌
+
+- [x] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Poland-Remote/System-Software-Engineering-Intern--GPU---2027_JR2025334 | Nvidia | System Software Engineering Intern, GPU - 2027 | 2 Locations | posted: 2026-09-10 | skipped: Poland/remote listing does not explicitly permit working from India

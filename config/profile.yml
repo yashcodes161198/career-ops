@@ -1,83 +1,74 @@
+# Career-Ops Profile Configuration
+# Candidate: Shashwat Kumar — internship search
+
 candidate:
-  full_name: "Yash Yash"
-  first_name: "Yash"
-  last_name: "Yash"
-  email: "yashk.code@gmail.com"
-  phone: "+91-9113358078"
-  date_of_birth: "1999-08-16"
-  gender: "male"
-  location: "Bengaluru, India"
-  linkedin: "https://linkedin.com/in/yash-5a56a4234"
-  github: "https://github.com/yashcodes161198"
+  full_name: "Shashwat Kumar"
+  email: "f20230266@pilani.bits-pilani.ac.in"
+  phone: "+91-7461012314"
+  location: "Pilani, Rajasthan, India"
+  linkedin: "https://www.linkedin.com/in/shashwat-kumar-1960a920b"
+  github: "https://github.com/quackapus"
+  portfolio_url: ""
   photo: ""
-  photo_style: rounded
-  education:
-    degree: "Bachelor of Technology"
-    branch: "Computer Science"
-    institution: "Indian Institute of Technology Ropar"
-    years: "2017-2021"
 
 target_roles:
   primary:
-    - "Senior Backend Engineer"
-    - "Senior Software Engineer"
-    - "Senior Full-Stack Engineer"
-    - "Senior Platform Engineer"
+    - "Software Engineering Intern"
+    - "Software Developer Intern"
+    - "Backend Engineering Intern"
+    - "Machine Learning Intern"
+    - "Data Science Intern"
+    - "AI Engineering Intern"
   archetypes:
-    - name: "Backend Engineer"
-      level: "Senior"
+    - name: "Software Developer Intern"
+      level: "Intern"
       fit: "primary"
-    - name: "Software Engineer"
-      level: "Senior"
+    - name: "Software Engineering Intern"
+      level: "Intern"
       fit: "primary"
-    - name: "Full-Stack Engineer"
-      level: "Senior"
+    - name: "Backend Engineering Intern"
+      level: "Intern"
+      fit: "primary"
+    - name: "Machine Learning / AI Intern"
+      level: "Intern"
+      fit: "primary"
+    - name: "Data Science / Data Engineering Intern"
+      level: "Intern"
+      fit: "primary"
+    - name: "Platform or Distributed Systems Intern"
+      level: "Intern"
       fit: "secondary"
-    - name: "Platform Engineer"
-      level: "Senior"
-      fit: "secondary"
-    - name: "Staff Backend Engineer"
-      level: "Staff"
-      fit: "adjacent"
 
 narrative:
-  headline: "Backend-heavy full-stack engineer building reliable Java, Spring Boot, React, TypeScript, and AWS systems"
-  exit_story: "I am looking for a senior backend role with greater ownership of distributed systems, architecture, and performance-critical services."
+  headline: "BITS Pilani student seeking software developer, data, and AI internships"
+  exit_story: "Prior SWECHA internship in distributed LLM infrastructure; seeking the next tech internship while completing a Data Science minor."
   superpowers:
-    - "Backend performance and production service ownership"
-    - "REST APIs, distributed systems, and data consistency"
-    - "AI-assisted engineering automation using MCP and tool-calling agents"
-    - "Full-stack delivery with Java, Spring Boot, React, and TypeScript"
+    - "Distributed systems and LLM inference tooling"
+    - "FastAPI and full-stack (Spring Boot, React) project delivery"
+    - "Applied ML fine-tuning with LoRA and quantized models"
   proof_points:
-    - name: "Production API performance"
-      hero_metric: "Reduced P99 latency 10x, from 1,200 ms to 120 ms"
-    - name: "Reporting Automation Platform"
-      hero_metric: "Saved approximately 10 hours per week across seven leaders and two teams"
-    - name: "Google DSA Interview Prep"
-      url: "https://github.com/yashcodes161198/GoogleDSA"
-      hero_metric: "Tracks approximately 770 Google LeetCode problems"
-    - name: "HTTP Server From Scratch"
-      url: "https://github.com/yashcodes161198/simple-java-http-server"
-      hero_metric: "Test-first HTTP parsing with concurrent request handling"
+    - name: "SWECHA distributed GPU / LLM internship"
+      url: ""
+      hero_metric: "100+ TFLOPS aggregate cluster; TinyLlama LoRA on 15K samples"
     - name: "Log Monitoring Application"
-      url: "https://github.com/yashcodes161198/LogMonitor"
-      hero_metric: "Handles 100 GB log files without loading them into memory"
+      url: "https://github.com/quackapus/LogMonitor"
+      hero_metric: "Spring Boot + React WebSocket log monitor; large-file reader path"
+    - name: "LeetCode practice"
+      url: ""
+      hero_metric: "1000+ problems solved"
 
 compensation:
-  target_range: "INR 35-70 LPA"
+  target_range: "Open to market internship stipend"
   currency: "INR"
-  minimum: "INR 35 LPA"
+  minimum: ""
+  location_flexibility: "Open to remote or on-site anywhere in India; willing to relocate within India. Prefer roles that accept India-based candidates without sponsorship."
 
 location:
   country: "India"
-  city: "Bengaluru"
-  state: "Karnataka"
-  pin: "560066"
-  current_address: "174, Hagadur Main Rd, Prestige Ozone, Whitefield, Bengaluru, Karnataka 560066"
+  city: "Pilani"
   timezone: "Asia/Kolkata"
-  visa_status: "Authorized to work in India; no sponsorship required"
-  authorized_in:
-    - "India"
+  visa_status: "Authorized to work in India; no sponsorship needed for India roles"
+  authorized_in: ["India"]
   needs_sponsorship: false
 
 language:
@@ -85,8 +76,15 @@ language:
 
 spend_tier: standard
 
+pipeline:
+  triage_threshold: 3.2
+  triage_min_urls: 5
+
+auto_pdf_score_threshold: 4.0
+
 cv:
   output_format: "html"
 
 cover_letter:
   notice_period_days: 0
+  primary_domain: "software engineering, distributed systems, and applied AI"
