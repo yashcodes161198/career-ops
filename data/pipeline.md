@@ -247,6 +247,10 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---Media-and-Broadcasting_JR2010160 | Nvidia | Senior System Software Engineer - Media and Broadcasting | India, Pune
 - [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer---Deep-Learning_JR2011323 | Nvidia | System Software Engineer - Deep Learning | India, Bengaluru
 
+- [ ] https://remoteOK.com/remote-jobs/remote-software-engineer-go-wakacje-pl-1135634 | Wakacje.pl | Software Engineer GO
+- [ ] https://himalayas.app/companies/quanata-llc/jobs/senior-back-end-engineer-remote-us-6178524002 | Quanata, LLC | Senior Back End Engineer \[Remote-US\] | United States | posted: 2026-09-13
+- [ ] https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210779419 | JPMorgan Chase | Software Engineer II - Quality Analyst, Automation / Functional, Playwright, Mongo/Oracle, API | Bengaluru, Karnataka, India | posted: 2026-09-12
+
 ## Applied (2026-09-12)
 
 - [x] #112 | [https://ats.rippling.com/rippling/jobs/e83a7c14-d13b-474d-9380-4a8d27f224f5](https://ats.rippling.com/rippling/jobs/e83a7c14-d13b-474d-9380-4a8d27f224f5) | Rippling | Senior Software Engineer | Bangalore, India | Applied
