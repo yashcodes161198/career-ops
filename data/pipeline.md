@@ -45,3 +45,5 @@
 - [ ] https://job-boards.greenhouse.io/mthreerecruitingportal/jobs/4660233006 | mthree | Graduate Recruitment - CP - Tech - 2026 | India | posted: 2026-03-18 | source: web-discovery
 - [ ] https://job-boards.greenhouse.io/mthreerecruitingportal/jobs/4658074006 | mthree | Graduate Recruitment - SHD - Tech - 2026 | India | posted: 2026-03-18 | source: web-discovery
 - [ ] https://job-boards.greenhouse.io/mthreerecruitingportal/jobs/4660235006 | mthree | Graduate Recruitment - ST - Tech - 2026 | India | posted: 2026-03-18 | source: web-discovery
+
+- [ ] https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Japan---Remote/Junior-Technical-Support-Engineer_JR318163 | Salesforce | Junior Technical Support Engineer【障害者採用】 | Japan - Remote
