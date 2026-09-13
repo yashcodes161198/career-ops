@@ -765,6 +765,33 @@ export function buildContentFilter(contentFilter) {
   };
 }
 
+// ── Experience filter ───────────────────────────────────────────────
+// Optional. Rejects descriptions that state a numeric minimum above the
+// configured ceiling. It deliberately passes missing descriptions and prose
+// without an explicit lower bound because list APIs often return incomplete JDs.
+export function buildExperienceFilter(experienceFilter) {
+  const maxRequiredYears = Number(experienceFilter?.max_required_years);
+  if (!Number.isFinite(maxRequiredYears) || maxRequiredYears < 0) return () => true;
+
+  const lowerBoundPatterns = [
+    /\b(?:at\s+least|minimum(?:\s+of)?|min\.?)\s*(\d{1,2})\s*\+?\s*years?\b/giu,
+    /\b(\d{1,2})\s*(?:\+|or\s+more)\s*years?\b/giu,
+    /\b(\d{1,2})\s*(?:-|–|—|to)\s*(\d{1,2})\s*years?\b/giu,
+    /\b(?:requires?|must\s+have|you\s+have)\D{0,40}?(\d{1,2})\s+years?\b/giu,
+  ];
+
+  return (description) => {
+    if (typeof description !== 'string' || description.trim() === '') return true;
+    for (const pattern of lowerBoundPatterns) {
+      pattern.lastIndex = 0;
+      for (const match of description.matchAll(pattern)) {
+        if (Number(match[1]) > maxRequiredYears) return false;
+      }
+    }
+    return true;
+  };
+}
+
 // ── Country-eligibility filter (#2093) ──────────────────────────────
 // Optional, opt-in. If `country_eligibility_filter` is absent from
 // portals.yml, all jobs pass — byte-identical to pre-#2093 behavior.
@@ -2910,6 +2937,7 @@ async function main() {
   const salaryFilter = buildSalaryFilter(config.salary_filter);
   const trustValidator = buildTrustValidator(config.trust_filter);
   const contentFilter = buildContentFilter(config.content_filter);
+  const experienceFilter = buildExperienceFilter(config.experience_filter);
   const candidateCountry = loadCandidateCountry();
   const countryEligibilityFilter = buildCountryEligibilityFilter(config.country_eligibility_filter, candidateCountry);
   const visaFilter = buildVisaFilter(config.visa_filter);
@@ -3141,6 +3169,10 @@ async function main() {
           continue;
         }
         if (!contentFilter(job.description, matchedTitleKeywords(job.title, config.title_filter))) {
+          totalFilteredContent++;
+          continue;
+        }
+        if (!experienceFilter(job.description)) {
           totalFilteredContent++;
           continue;
         }
@@ -3425,11 +3457,11 @@ async function main() {
   const unreachableTargets = errors.filter((e) => e.kind === 'slug_gone');
   const networkTargets = errors.filter((e) => e.kind === 'network');
   const otherErrors = errors.filter((e) => e.kind !== 'slug_gone' && e.kind !== 'network');
-  
+
   const STREAK_THRESHOLD = config.portal_health_threshold || 3;
   const nowStr = new Date().toISOString();
   const healthRecords = [];
-  
+
   // Record each errored target under its real classifyFetchError kind. Before
   // this, only slug_gone/network were recorded and auth (401/403), server
   // (5xx), and unknown fell through to 'reachable' — so a portal WAF-403ing
@@ -3454,7 +3486,7 @@ async function main() {
   const persistentlyDead = [];
   const newlyDeadSlug = [];
   const newlyDeadNetwork = [];
-  
+
   // All error kinds can reach the 🚨 persistent list (auth/server/unknown
   // included — a WAF that 403s the scanner every run is coverage decay too).
   // Below threshold, only slug_gone/network keep their dedicated warnings;

@@ -1,6 +1,10 @@
 # Fresher-focused discovery template for candidates in India.
 # Personalize target disciplines, locations, and companies before the first scan.
 
+# Skip senior-tier titles only. Internships are rejected via title_filter negatives
+# because valid GET/trainee titles classify as intern in classify-tier.mjs.
+skip_tiers: [senior]
+
 scan_history:
   recheck_after_days: 14
   dedup_include_location: true
@@ -8,6 +12,22 @@ scan_history:
 max_posting_age_days: 30
 
 location_filter:
+  block_hard:
+    - "Remote - USA"
+    - "Remote - US"
+    - "US, Remote"
+    - "United States, Remote"
+    - "Remote, United States"
+    - "Remote - Ireland"
+    - "Remote, Ireland"
+    - "Remote - United Kingdom"
+    - "Remote, United Kingdom"
+    - "Remote - Canada"
+    - "Remote, Canada"
+    - "Remote - Poland"
+    - "Remote, Poland"
+    - "Remote - Slovenia"
+    - "Remote, Slovenia"
   always_allow:
     - "India"
     - "Bengaluru"
@@ -37,6 +57,9 @@ location_filter:
     - "NCR"
     - "Chennai"
     - "Mumbai"
+    - "Remote"
+    - "Worldwide"
+    - "Anywhere"
 
 country_eligibility_filter:
   exclusionary:
@@ -59,7 +82,6 @@ country_eligibility_filter:
     - "apac"
 
 title_filter:
-  skip_tiers: [intern]
   positive:
     - "Fresher"
     - "Freshers"
@@ -101,18 +123,79 @@ title_filter:
     - "AI Engineer Fresher"
     - "Graduate Trainee"
     - "Engineer Trainee"
+    # Expanded technical delivery (entry-level AND-groups; not generic mid-level IC titles)
+    - "Associate + Frontend Engineer"
+    - "Junior + Frontend Engineer"
+    - "Associate + Mobile Engineer"
+    - "Junior + Mobile Engineer"
+    - "Associate + Android Engineer"
+    - "Junior + Android Engineer"
+    - "Associate + iOS Engineer"
+    - "Junior + iOS Engineer"
+    - "Associate + QA Engineer"
+    - "Junior + QA Engineer"
+    - "Associate + SDET"
+    - "Junior + SDET"
+    - "Graduate + Data Engineer"
+    - "Associate + Data Engineer"
+    - "Junior + Data Engineer"
+    - "Graduate + ML Engineer"
+    - "Associate + ML Engineer"
+    - "Junior + ML Engineer"
+    - "Graduate + AI Engineer"
+    - "Associate + AI Engineer"
+    - "Junior + AI Engineer"
+    - "Associate + DevOps Engineer"
+    - "Junior + DevOps Engineer"
+    - "Graduate + DevOps Engineer"
+    - "Associate + SRE"
+    - "Junior + SRE"
+    - "Associate + Cloud Engineer"
+    - "Junior + Cloud Engineer"
+    - "Associate + Security Engineer"
+    - "Junior + Security Engineer"
+    - "Associate + Network Engineer"
+    - "Junior + Network Engineer"
+    - "Graduate + Systems Engineer"
+    - "Associate + Systems Engineer"
+    - "Junior + Systems Engineer"
+    - "Associate + IT Engineer"
+    - "Junior + IT Engineer"
+    - "Associate + Support Engineer"
+    - "Junior + Support Engineer"
   negative:
-    - "Senior"
-    - "Staff"
-    - "Principal"
-    - "Lead Engineer"
-    - "Engineering Manager"
-    - "Director"
+    - "word:Senior"
+    - "word:Staff"
+    - "word:Principal"
+    - "word:Architect"
+    - "word:Manager"
+    - "word:Director"
     - "word:Intern"
     - "Internship"
     - "Co-op"
     - "Summer Intern"
     - "Winter Intern"
+    - "Tech Lead"
+    - "Technical Lead"
+    - "Lead Engineer"
+    - "Lead Software"
+    - "Lead Backend"
+    - "Engineering Lead"
+    - "word:VP"
+    - "Vice President"
+    - "Head of Engineering"
+    - "Software Engineer II"
+    - "Software Engineer III"
+    - "Engineer II"
+    - "Engineer III"
+    - "SDE II"
+    - "SDE III"
+    - "SDE-2"
+    - "SDE-3"
+    - "SDE 2"
+    - "SDE 3"
+    - "Mid-Level"
+    - "Mid Level"
     - "3+ years"
     - "4+ years"
     - "5+ years"
@@ -134,6 +217,10 @@ title_filter:
     - "Campus"
     - "0-1"
     - "0-2"
+
+# Reject explicit 3+ year minimums in JD text. Missing descriptions still pass.
+experience_filter:
+  max_required_years: 2
 
 # These searches run through the agent-driven `/career-ops scan` workflow.
 # The zero-token `npm run scan` command does not execute WebSearch queries.
@@ -563,24 +650,24 @@ tracked_companies:
 job_boards:
   - name: RemoteOK
     provider: remoteok
-    enabled: false
+    enabled: true
 
   - name: Remotive
     provider: remotive
-    enabled: false
+    enabled: true
 
   - name: Himalayas
     provider: himalayas
-    enabled: false
+    enabled: true
 
   - name: We Work Remotely
     provider: weworkremotely
-    enabled: false
+    enabled: true
 
   - name: Working Nomads
     provider: workingnomads
-    enabled: false
+    enabled: true
 
   - name: Jobicy
     provider: jobicy
-    enabled: false
+    enabled: true

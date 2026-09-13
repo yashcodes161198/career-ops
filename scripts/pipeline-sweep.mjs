@@ -14,9 +14,9 @@ const PIPELINE = join(ROOT, 'data', 'pipeline.md');
 const DISCARD = join(ROOT, 'data', 'discard.log');
 const LIVENESS = process.argv[2] || '/tmp/liveness-results.txt';
 
-const OUTSIDE_INDIA_ONLY = /\b(remote[,\s-]*(?:usa|us\b)|united states|san diego|california,\s*united states|remote,\s*canada(?:\s*;\s*remote,\s*united states)?|remote,\s*united kingdom|remote,\s*poland|remote,\s*israel|us-ca-remote|us-remote|us-wa-remote|finland-remote|sweden-remote)\b/i;
+const OUTSIDE_INDIA_ONLY = /\b(remote[,\s-]*(?:usa|us\b)|united states|san diego|california,\s*united states|remote,\s*canada(?:\s*;\s*remote,\s*united states)?|remote,\s*united kingdom|remote,\s*ireland|remote,\s*slovenia|remote,\s*poland|remote,\s*israel|us-ca-remote|us-remote|us-wa-remote|finland-remote|sweden-remote)\b/i;
 const INDIA_OK = /\b(india|hyderabad|bengaluru|bangalore|chennai|mumbai|pune|noida|delhi|kolkata|work from home,\s*india|anywhere in the world)\b/i;
-const NON_FRESHER_SENIORITY = /\b(senior|staff|principal|lead engineer|engineering manager|manager|director|vice president|vp)\b/i;
+const NON_FRESHER_SENIORITY = /\b(?:senior|staff|principal|manager|director)\b|\b(?:tech(?:nical)?|engineering)\s+lead\b|\blead\s+(?:software|backend|platform|engineer)\b|\bsoftware\s+architect\b|\bsoftware\s+engineer\s+(?:ii|iii|2|3)\b|\bsde[- ]?(?:ii|iii|2|3)\b|\bengineer\s+(?:ii|iii)\b|\bvice\s+president\b|\bvp\b/i;
 const INTERNSHIP_ROLE = /\b(intern|internship|co-op|summer intern|winter intern)\b/i;
 
 function ts() {
